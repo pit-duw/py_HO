@@ -1,0 +1,5 @@
+# An extra cuts applied to MVA
+# one should use the C++ language
+# e.g. and -> &&, or -> ||
+SignalCuts = 
+BackgroundCuts = 

@@ -1,0 +1,35 @@
+SHELL = /bin/sh
+
+EXE= HepMC2Plot
+BIN= ../../bin/
+
+include make_opts
+
+# Location of directories.
+TOPDIR=$(shell \pwd)
+INCDIR=include
+SRCDIR=src
+LIBDIR=lib
+LIBDIRARCH=lib/archive
+
+all: ${EXE}
+
+%.o %.mod: %.f90
+	$(FC) -c $< -fPIC -ffixed-line-length-132 -I$(TOPDIR)/$(INCDIR) -o $@ $(EXTRAPATHS) $(EXTRALIBS) -lstdc++
+
+%.o: %.cc
+	$(CXX) -c $< -fPIC $(INCLOPTION) -o $@
+
+${EXE}: $(FORFILE) ../../lib/libhbook.a
+	$(CXX) $(CXXFLAGS) -I$(HEPMCLOCATION)/$(INCDIR) \
+	-I$(TOPDIR)/$(INCDIR) $(EXTRAPATHS) $(EXTRALIBS) \
+	$@.cc -o ${BIN}${EXE} $(FORFILE) \
+	-L$(HEPMCLOCATION)/$(LIBDIR) -lHepMC -lHepMCfio \
+	$(LIBGFORTRANPATH) $(LIBGFORTRAN) \
+	-L../../lib -lhbook
+
+clean:
+	rm -rf *~ $(FORFILE) HepMC2Plot.o *.mod ${BIN}${EXE}
+
+clean_all:
+	rm -rf *~ *.o *.mod ${BIN}${EXE} ${BIN}HepMC2Root

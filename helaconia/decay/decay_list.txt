@@ -1,0 +1,7 @@
+# The available decay processes in HELAC-Onia
+1. cc~(3S11) or bb~(3S11) > l+ l- (l=e or mu)
+2. W+- > f1 f2
+3. Z > f f~
+4. t > b W+ or t~ > b~ W-
+5. chic1 > psi a or chib1(1P) > Y(1S) a
+6. chic2 > psi a or chib2(1P) > Y(1S) a

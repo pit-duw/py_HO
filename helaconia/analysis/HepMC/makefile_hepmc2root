@@ -1,0 +1,35 @@
+SHELL = /bin/sh
+
+EXE= HepMC2Root
+BIN= ../../bin/
+
+include make_opts
+
+# Location of directories.
+TOPDIR=$(shell \pwd)
+INCDIR=include
+SRCDIR=src
+LIBDIR=lib
+LIBDIRARCH=lib/archive
+
+all: ${EXE}
+
+%.o %.mod: %.f90
+	$(FC) -c $< -fPIC -ffixed-line-length-132 -I$(TOPDIR)/$(INCDIR) -o $@ $(EXTRAPATHS) $(EXTRALIBS) -lstdc++
+
+%.o: %.cc
+	$(CXX) -c $< -fPIC $(INCLOPTION) -o $@
+
+${EXE}: $(FORFILE) ../../lib/libhbook.a
+	$(CXX) $(CXXFLAGS) -I$(HEPMCLOCATION)/$(INCDIR) \
+	-I$(ROOTLOCATION)/$(INCDIR) -I$(TOPDIR) \
+	$(INCLOPTION) $(EXTRAPATHS) $(EXTRALIBS) \
+	$(MAINFILE) -o ${BIN}${EXE} $(FORFILE) \
+	-L$(HEPMCLOCATION)/$(LIBDIR) -lHepMC -lHepMCfio \
+	-L$(ROOTLOCATION)/$(LIBDIR) -lTree -lCore -lRIO -lEG \
+	$(LIBGFORTRANPATH) $(LIBGFORTRAN) \
+	-L../../lib -lhbook
+
+clean:
+	rm -rf *~ HepMC2Root_*.o ${BIN}${EXE}
+

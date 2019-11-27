@@ -1,0 +1,6 @@
+
+IF(uselhapdf)THEN
+ CALL strf_lhapdf_pp_QQ_cb(wsf)
+ RETURN
+ENDIF
+

@@ -1,0 +1,30 @@
+# fragment hadron standard cuts
+fragment_minptpi0 0d0  # minimum pt of pi0
+fragment_minptpipm 0d0 # minimum pt of pi+-
+fragment_minptK0 0d0   # minimum pt of K0 or anti-K0
+fragment_minptKpm 0d0  # minimum pt of K+-
+fragment_minptp 0d0    # minimum pt of (anti-)proton
+fragment_minptn 0d0    # minimum pt of (anti-)neutron
+fragment_minycpi0  0d0    # minimum y rapidity of pi0
+fragment_maxycpi0  1d9    # maximum y rapidity of pi0
+fragment_maxrappi0 1d9    # maximum pesudo rapidity of pi0
+fragment_minycpipm 0d0    # minimum y rapidity of pi+-
+fragment_maxycpipm 1d9    # maximum y rapidity of pi+-
+fragment_maxrappipm 1d9   # maximum pesudo rapidity of pi+-
+fragment_minycK0  0d0    # minimum y rapidity of K0 or anti-K0
+fragment_maxycK0  1d9    # maximum y rapidity of K0 or anti-K0
+fragment_maxrapK0 1d9    # maximum pesudo rapidity of K0 or anti-K0
+fragment_minycKpm 0d0    # minimum y rapidity of K+-
+fragment_maxycKpm 1d9    # maximum y rapidity of K+-
+fragment_maxrapKpm 1d9   # maximum pesudo rapidity of K+-
+fragment_minycp  0d0     # minimum y rapidity of (anti-)proton
+fragment_maxycp  1d9     # maximum y rapidity of (anti-)proton
+fragment_maxrapp 1d9     # maximum pesudo rapidity of (anti-)proton
+fragment_minycn 0d0      # minimum y rapidity of (anti-)neutron
+fragment_maxycn 1d9      # maximum y rapidity of (anti-)neutron
+fragment_maxrapn 1d9     # maximum pesudo rapidity of (anti-)neutron
+
+# Special argument for FF provided by Stefan Kretzer
+# See http://www.pv.infn.it/~radici/FFdatabase/
+FFKretzer_Order  0      # 0:LO, 1:NLO(MSbar)
+FFKretzer_Set    2      # 1:Kretzer set, 2: Kniehl-Kramer-Potter set, 3: Bourhis-Fontannaz-Guillet-Werlen set

@@ -1,0 +1,4 @@
+# It is the interfaced version of HEPTopTagger (http://www.thphys.uni-heidelberg.de/~plehn/index.php?show=heptoptagger&visible=tools)
+# It only valid with the compilator gcc < 4.5.
+# The error of the compilator >= 4.5 would be
+# ‘HEPTopTagger::HEPTopTagger’ names the constructor, not the type

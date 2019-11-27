@@ -1,0 +1,6 @@
+
+IF(fit_uselhapdf)THEN
+ CALL strf_lhapdf_fit_cb(wsf)
+ RETURN
+ENDIF
+

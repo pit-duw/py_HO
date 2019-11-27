@@ -1,0 +1,28 @@
+##########################################################
+# special cuts for p p > a a j j via DPS                 #
+##########################################################
+ 
+##########################################################
+# Kinematic cuts to leading photon in pt                 #
+##########################################################
+pta1l 40d0  # the lower pt cut to the leading photon in pt
+pta1u -1d0  # the upper pt cut to the leading photon in pt, if it is negative, no such cut
+etaa1 2.5d0 # the eta cut to the leading photon in pt
+##########################################################
+# Kinematic cuts to subleading photon in pt              #
+##########################################################
+pta2l 25d0  # the lower pt cut to the subleading photon in pt
+pta2u -1d0  # the upper pt cut to the subleading photon in pt, if it is negative, no such cut
+etaa2 2.5d0 # the eta cut to the subleading photon in pt
+##########################################################
+# Kinematic cuts to leading jet in pt                    #
+########################################################## 
+ptj1l 30d0  # the lower pt cut to the leading jet in pt
+ptj1u -1d0  # the upper pt cut to the leading jet in pt, if it is negative, no such cut
+etaj1  2.5d0 # the eta cut to the leading jet in pt
+##########################################################
+# Kinematic cuts to subleading jet in pt                 #
+##########################################################
+ptj2l 30d0 # the lower pt cut to the subleading jet in pt
+ptj2u -1d0  # the upper pt cut to the subleading jet in pt, if it is negative, no such cut
+etaj2  2.5d0 # the eta cut to the subleading jet in pt 

@@ -1,0 +1,31 @@
+
+# ----------------------------------------------------------------------------
+#
+# Makefile for FJCORE library
+#
+# ----------------------------------------------------------------------------
+
+LIBRARY= libfastjetfortran.$(libext)
+LIBDIR= ../../lib/
+
+include make_opts
+
+FASTJETPATH =
+CXXFLAGS=-O2
+INCLUDES += -I${FASTJETPATH}/include/
+CXXFLAGS += ${INCLUDES}
+
+OBJ = fastjetfortran.o
+
+all: $(LIBDIR)$(LIBRARY)
+
+$(LIBDIR)$(LIBRARY): $(OBJ)
+	@$(call CREATELIB, $@, $^)
+	rm *.o
+
+clean_fastjetfortran:
+	rm -vf $(LIBDIR)$(LIBRARY) *~
+
+clean:
+	rm -vf *.o $(LIBDIR)$(LIBRARY) *~
+

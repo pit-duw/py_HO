@@ -1,0 +1,11 @@
+# AddOn processes for HELAC-Onia
+# use 
+# HO>generate addon 1
+# process   subdirectory    description
+1         pp_psipsi_DPS   # p+p(pbar) --> \psi+\psi+X or \psi+\Upsilon+X or \Upsilon+\Upsilon+X via DPS
+2         pp_psiX_CrystalBall # p+p(pbar) --> \psi+X or \Upsilon+X via Crystal Ball function fit (arXiv:1105.4186)
+3         fit_pp_psiX_CrystalBall # fit the Crystal Ball function via p+p(pbar) --> \psi+X
+4         fit_pp_upsilonX_CrystalBall  # fit the Crystal Ball function via p+p(pbar) --> \Upsilon+X
+5         fit_pp_QQ_CrystalBall  # fit the Crystal Ball function via p+p(pbar) --> Q+\bar{Q}, where Q = heavy quark or open-flavor meson
+6         pp_QQ_CrystalBall  # p+p(pbar) --> Q+Qbar via Crystal Ball function fit, where Q = heavy quark or open-flavor meson
+7         pp_aajj_DPS        # p+p(pbar) --> gamma+gamma+j+j via DPS

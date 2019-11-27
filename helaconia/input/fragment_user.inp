@@ -1,0 +1,21 @@
+# FRAGMENT CHANNELS
+# The syntax is
+# Fragment Chain I
+# 1 1
+# ID_parton PDG_h
+# OR
+# Fragment Chain I
+# 1 2
+# index_parton PDG_h
+# where I = 1,...,99, ID_parton is the HELAC-Onia ID for the fragmenting parton, index_parton is the index final number parton, PDG_h is the PDG for the fragmented hadron, 1/2 after closingly "Fragment Chain I" line is the Type.
+# Example of syntax:
+# g >> pi0: 
+# In type 1:
+# Fragment Chain 1
+# 1 1
+# 35 111
+# First final parton fragments to pi0:
+# In type 2:
+# Fragment Chain 1
+# 1 2
+# 1 111

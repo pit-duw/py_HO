@@ -1,0 +1,105 @@
+################################################################################
+#
+# This File contains some configuration variable for HELAC-Onia
+#
+# Line starting by #! are comment and should remain commented
+# Line starting with # should be uncommented if you want to modify the default
+# values
+#
+################################################################################
+#! Prefered Fortran Compiler
+#! If None: try to find gfortran or ifort or g77 or f77 or lahey95 on the system
+#!
+# fortran_compiler = None
+
+#! lhapdf-config
+#!  If None: try to find one available on the system
+# lhapdf = lhapdf-config
+
+#! fastjet-config
+#!  If None: try to find one available on the system
+# fastjet = fastjet-config
+
+#! Pythia8 path.
+#!  Defines the path to the pythia8 directory.
+#!  This is the directory that contains the subdirectory examples;
+#!  in particular, it is crucial that the file
+#   pythia8_path/examples/config.sh be present.
+#!  If using a relative path, that starts from the HELAC-Onia directory
+# pythia8_path = 
+
+#! Herwig++ paths
+#!  specify here the paths also to HepMC and ThePEG
+#!  define the path to the herwig++, thepeg and hepmc directories.
+#!  paths can be absolute or relative from mg5 directory
+# hwpp_path =
+# thepeg_path =
+# hepmc_path =
+
+################################################################################
+#
+# Following configurations are the options for running on the cluster
+#
+################################################################################
+#! Default Running mode
+#!  0: single machine/ 1: cluster / 2: multicore
+run_mode = 2
+
+#! Cluster Type [pbs|sge|condor|lsf|ge|slurm|th1a] Use for cluster run only
+#!  And cluster queue
+# cluster_type = lsf
+# cluster_queue = 2nw
+
+#! Path to a node directory to avoid direct writting on the central disk
+#!  Note that condor cluster avoid direct writting by default (therefore this
+#!  options didn't modify condor cluster)
+# cluster_temp_path = None
+
+#! Cluster waiting time for status update
+#!  First number is when the number of waiting job is higher than the number
+#!  of running one (time in second). The second number is in the second case.
+# cluster_status_update = 600 30
+
+#! How to deal with failed submission (can occurs on cluster mode)
+#!  0: crash, -1: print error, hangs the program up to manual instructions, N(>\
+0) retry up to N times.
+# cluster_nb_retry = 1
+
+#! How much time to wait for the output file before resubmission/crash (filesys\
+tem can be very slow)
+# cluster_retry_wait = 300
+
+#! Nb_core to use (None = all) This is use only for multicore run
+#!  This correspond also to the number core used for code compilation for clust\
+er mode
+# nb_core = None
+
+#! The number of core on each node of the cluster
+#! This option will be used to split jobs on the cluster
+# cluster_node_core = None
+
+#! The max time to be used on the cluster
+#! It is written in hours
+# cluster_time = None
+
+###############################################################################
+#
+# Following configurations are for the future implementation in HELAC-Onia
+#
+###############################################################################
+
+#! Pythia-PGS Package
+#!  relative path start from main directory
+# pythia-pgs_path = ./pythia-pgs
+
+#! Delphes Package
+#!  relative path start from main directory
+# delphes_path = ./Delphes
+
+#! TOPDRAWER PATH
+#!  Path to the directory containing td executables
+#!  relative path start from main directory
+# td_path = ./td
+
+
+

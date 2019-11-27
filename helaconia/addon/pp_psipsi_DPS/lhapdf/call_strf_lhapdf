@@ -1,0 +1,6 @@
+
+IF(uselhapdf)THEN
+ CALL strf_lhapdf_pp_psipsi_dps(ipip,wsf)
+ RETURN
+ENDIF
+

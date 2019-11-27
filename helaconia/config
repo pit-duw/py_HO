@@ -1,0 +1,672 @@
+#!/usr/bin/env bash
+# Guess values for system-dependent variables and create makefile
+
+# Option echo                                                                    
+if [ $(uname) == "Darwin" ];
+then
+    echooption="-e"
+elif [ $(uname) == "Linux" ];
+then
+    echooption="-e"
+else
+    echooption="-e"
+fi
+# determine the fortran compiler
+FC=""
+cat ./input/ho_configuration.txt | while read tmpline
+do
+    ttmpline=${tmpline:0:16}
+    if [ "$ttmpline" == "fortran_compiler" ]
+    then
+        i=16
+        tmppath=""
+        while true;
+        do
+            ttmpline=${tmpline:$i:1}
+            if [ "$ttmpline" == "=" ]
+            then
+                i=`expr $i + 1`
+                FC=${tmpline:$i}
+                if [ ! -z `which $FC` ]
+                then
+		    echo $echooption $FC >> "$PWD/tmp/FC.tmp"
+                fi
+                break
+            elif [ $i -lt 200 ]
+            then
+                i=`expr $i + 1`
+            else
+                break
+            fi
+        done
+    fi
+done
+if [ -f "$PWD/tmp/FC.tmp" ]
+then
+    read -r FC<"$PWD/tmp/FC.tmp"
+    rm $PWD/tmp/FC.tmp
+fi
+if [ -z "$FC" ]
+then
+    if [ ! -z `which gfortran` ]
+    then
+	FC=gfortran
+    elif [ ! -z `which ifort` ]
+    then
+	FC=ifort
+    elif [ ! -z `which g77` ]
+    then
+	FC=g77
+    elif [ ! -z `which f77` ]
+    then
+	FC=f77
+    elif [ ! -z `which lahey95` ]
+    then
+	FC=lahey95
+    else
+	echo "please specify the valid fortran compiler"
+	while read FC
+	do
+	    if [ ! -z `which $FC` ]
+	    then
+		break
+	    else
+		echo "$FC is not a valid fortran compiler"
+		echo "exit(y/n) ?"
+		read x
+		if [ "$x" == "y" ]
+		then
+		    exit
+		else
+		    echo "input the valid fortran compiler again"
+		fi
+	    fi
+	done
+    fi
+fi
+echo "Using fortran compiler $FC"
+if [ -f "$PWD/input/fortran_compiler" ]
+then
+    rm $PWD/input/fortran_compiler
+fi
+echo $echooption "FC=$FC" >> "$PWD/input/fortran_compiler"
+
+if [ "$(ls -A $PWD/input/paths)" ];
+then
+    rm $PWD/input/paths/*
+fi
+# find root path from system
+# $ROOTSYS or $PATH 
+find_rootpath(){
+    if [ -f "$PWD/input/paths/rootpath" ]
+    then
+	read -r root_path<"$PWD/input/paths/rootpath"
+    else
+	root_path=""
+    fi
+    if [ ! -d $root_path ] || [ ! -f $root_path/include/TTree.h ]
+    then
+        if [ -f "$PWD/input/paths/rootpath" ]
+        then
+            rm $PWD/input/paths/rootpath
+        fi
+        root_path=$ROOTSYS
+        if [ ! -d $root_path ] || [ ! -f $root_path/include/TTree.h ]
+        then
+            arr=$(echo $PATH | tr ":" "\n")
+            for xx in $arr
+            do
+                if [ -d "$x" ] && [ -f "$x/include/TTree.h" ]
+                then
+                    echo $echooption $xx >> "$PWD/input/paths/rootpath"
+                    break
+                fi
+            done
+        else
+            echo $echooption $root_path >> "$PWD/input/paths/rootpath"
+        fi
+    fi
+}
+# determine the path of lhapdf
+cat ./input/ho_configuration.txt | while read tmpline
+do
+    ttmpline=${tmpline:0:6}
+    if [ "$ttmpline" == "lhapdf" ]
+    then
+	i=6
+	tmppath=""
+	while true;
+	do
+            ttmpline=${tmpline:$i:1}
+	    if [ "$ttmpline" == "=" ]
+	    then
+		i=`expr $i + 1`
+		lhapdfpath=${tmpline:$i}
+		#lhapdflibpath=`$lhapdfpath --libdir`
+		if [ -f $lhapdfpath ]
+		then
+		    echo $echooption $lhapdfpath >> "$PWD/input/paths/lhapdfpath"
+		fi
+		#echo $lhapdflibpath >> "$(PWD)/input/paths/lhapdflibpath"
+		break
+	    elif [ $i -lt 200 ]
+	    then
+		i=`expr $i + 1`
+	    else
+		break
+	    fi
+        done
+    fi
+    ttmpline=${tmpline:0:7}
+    if [ "$ttmpline" == "fastjet" ]
+    then
+	i=7
+	tmppath=""
+	while true;
+	do
+	    ttmpline=${tmpline:$i:1}
+	    if [ "$ttmpline" == "=" ]
+	    then
+		i=`expr $i + 1`
+		fastjetpath=${tmpline:$i}
+		if [ -f $fastjetpath ]
+		then
+		    echo $echooption $fastjetpath >> "$PWD/input/paths/fastjetpath"
+		fi
+		break
+	    elif [ $i -lt 200 ]
+	    then
+		i=`expr $i + 1`
+	    else
+		break
+	    fi
+	done
+    fi
+    ttmpline=${tmpline:0:10}
+    if [ "$ttmpline" == "hepmc_path" ]
+    then
+	i=10
+	tmppath=""
+	while true;
+	do
+	    ttmpline=${tmpline:$i:1}
+	    if [ "$ttmpline" == "=" ]
+	    then
+		i=`expr $i + 1`
+                hepmcpath=${tmpline:$i}
+                if [ -d $hepmcpath ]
+                then
+                    echo $echooption $hepmcpath >> "$PWD/input/paths/hepmcpath"
+                fi
+                break
+            elif [ $i -lt 200 ]
+            then
+                i=`expr $i + 1`
+            else
+                break
+	    fi
+	done
+    fi
+    ttmpline=${tmpline:0:9}
+    if [ "$ttmpline" == "root_path" ]
+    then
+        i=9
+        tmppath=""
+        while true;
+        do
+            ttmpline=${tmpline:$i:1}
+            if [ "$ttmpline" == "=" ]
+            then
+                i=`expr $i + 1`
+                rootpath=${tmpline:$i}
+                if [ -d $rootpath ]
+                then
+                    echo $echooption $rootpath >> "$PWD/input/paths/rootpath"
+                fi
+                break
+            elif [ $i -lt 200 ]
+            then
+                i=`expr $i + 1`
+            else
+                break
+            fi
+        done
+    fi
+done
+# find the correct root path via system $ROOTSYS and $PATH
+find_rootpath
+# set the global directories
+exlibs=""
+makemore=""
+alphascall=""
+strflhapdfcall=""
+strflhapdfcalladdon1=""
+strflhapdfcalladdon2=""
+strflhapdfcalladdon3=""
+strflhapdfcalladdon4=""
+strflhapdfcalladdon5=""
+strflhapdfcalladdon6=""
+strflhapdfcalladdon7=""
+initpdfcall=""
+initpdfcall0=""
+if [ "$(ls -A ./input/lhapdf)" ];
+then
+    rm ./input/lhapdf/*
+fi
+if [ "$(ls -A ./addon/pp_psipsi_DPS/lhapdf)" ];
+then
+    rm ./addon/pp_psipsi_DPS/lhapdf/*
+fi
+if [ "$(ls -A ./addon/pp_psiX_CrystalBall/lhapdf)" ];
+then
+    rm ./addon/pp_psiX_CrystalBall/lhapdf/*
+fi
+if [ "$(ls -A ./addon/fit_pp_psiX_CrystalBall/lhapdf)" ];
+then
+    rm ./addon/fit_pp_psiX_CrystalBall/lhapdf/*
+fi
+if [ "$(ls -A ./addon/fit_pp_upsilonX_CrystalBall/lhapdf)" ];
+then
+    rm ./addon/fit_pp_upsilonX_CrystalBall/lhapdf/*
+fi
+if [ "$(ls -A ./addon/fit_pp_QQ_CrystalBall/lhapdf)" ];
+then
+    rm ./addon/fit_pp_QQ_CrystalBall/lhapdf/*
+fi
+if [ "$(ls -A ./addon/pp_QQ_CrystalBall/lhapdf)" ];
+then
+    rm ./addon/pp_QQ_CrystalBall/lhapdf/*
+fi
+if [ "$(ls -A ./addon/pp_aajj_DPS/lhapdf)" ];
+then
+    rm ./addon/pp_aajj_DPS/lhapdf/*
+fi
+if [ -r "$PWD/input/paths/lhapdfpath" ]
+then
+    read -r lhapdfpath<"./input/paths/lhapdfpath"
+    lhapdflibpath=`$lhapdfpath --libdir`
+    exlibs="$exlibs -L$lhapdflibpath -lLHAPDF"
+    alphascall="\nREAL(KIND(1d0)),EXTERNAL::alphasPDF\nIF(uselhapdf)THEN\n  IF(.NOT.lhapdfwrapinit)THEN\n    CALL lhapdfwrap\n    lhapdfwrapinit=.TRUE.\n  ENDIF\n  ALPHAS=alphasPDF(sc)\n  RETURN\nENDIF\n"
+    strflhapdfcall="\nIF(uselhapdf)THEN\n  CALL strf_lhapdf(wsf)\n  RETURN\nENDIF\n"
+    strflhapdfcalladdon1="\nIF(uselhapdf)THEN\n  CALL strf_lhapdf_pp_psipsi_dps(ipip,wsf)\n  RETURN\nENDIF\n"
+    strflhapdfcalladdon2="\nIF(uselhapdf)THEN\n  CALL strf_lhapdf_pp_psiX_cb(wsf)\n  RETURN\nENDIF\n"
+    strflhapdfcalladdon3="\nIF(fit_uselhapdf)THEN\n  CALL strf_lhapdf_fit_cb(wsf)\n  RETURN\nENDIF\n"
+    strflhapdfcalladdon4=$strflhapdfcalladdon3
+    strflhapdfcalladdon5=$strflhapdfcalladdon3
+    strflhapdfcalladdon6="\nIF(uselhapdf)THEN\n  CALL strf_lhapdf_pp_QQ_cb(wsf)\n  RETURN\nENDIF\n"
+    strflhapdfcalladdon7="\nIF(uselhapdf)THEN\n  CALL strf_lhapdf_pp_aajj_dps(ipip,id1,id2,wsf)\n  RETURN\nENDIF\n"
+    initpdfcall="CALL initPDF(i)"
+    initpdfcall0="CALL initPDF(0)"
+fi
+echo $echooption $alphascall >> "./input/lhapdf/call_alphas"
+echo $echooption $strflhapdfcall >>"./input/lhapdf/call_strf_lhapdf"
+echo $echooption $strflhapdfcalladdon1 >>"./addon/pp_psipsi_DPS/lhapdf/call_strf_lhapdf"
+echo $echooption $strflhapdfcalladdon2 >>"./addon/pp_psiX_CrystalBall/lhapdf/call_strf_lhapdf"
+echo $echooption $strflhapdfcalladdon3 >> "./addon/fit_pp_psiX_CrystalBall/lhapdf/call_strf_lhapdf"
+echo $echooption $strflhapdfcalladdon4 >> "./addon/fit_pp_upsilonX_CrystalBall/lhapdf/call_strf_lhapdf"
+echo $echooption $strflhapdfcalladdon5 >> "./addon/fit_pp_QQ_CrystalBall/lhapdf/call_strf_lhapdf"
+echo $echooption $strflhapdfcalladdon6 >> "./addon/pp_QQ_CrystalBall/lhapdf/call_strf_lhapdf"
+echo $echooption $strflhapdfcalladdon7 >> "./addon/pp_aajj_DPS/lhapdf/call_strf_lhapdf"
+echo $echooption $initpdfcall >> "./input/lhapdf/call_initpdf"
+echo $echooption $initpdfcall0 >> "./input/lhapdf/call_initpdf0"
+# link to fastjet or fjcore (if fastjet is not available in ho_configuration.txt)
+if [ -r "$PWD/input/paths/fastjetpath" ]
+then
+    # link to fastjet
+    # NOTE: uncomment the exlibs and fastjetlibflag lines
+    # NOTE: if you want to link fastjet and heptoptagger
+    # NOTE: to the core of HELAC-Onia
+    read -r fastjetpath<"./input/paths/fastjetpath"
+    #fastjetlibflag=`$fastjetpath --libs`
+    #exlibs="$exlibs $fastjetlibflag"
+    # if [[ $exlibs !=*"-lfastjetplugins"* ]]
+    # then
+    #     exlibs="$exlibs -lfastjetplugins"
+    # fi
+    fastjetbinpath=`dirname $fastjetpath`
+    fastjetmainpath=`dirname $fastjetbinpath`
+    fastjetlibpath=$fastjetmainpath/lib
+    fastjetincludepath=$fastjetmainpath/include
+    #if [[ $exlibs != *"-lstdc++"* ]]
+    #then
+    #    exlibs="$exlibs -lstdc++"
+    #fi
+    #exlibs="$exlibs -lfastjetfortran"
+    #exlibs="$exlibs -lheptoptagger"
+    makemore="$makemore makefile_fastjetfortran"
+    makemore="$makemore makefile_fastjet_heptoptagger"
+else
+    # use fjcore, which cannot use jet area and siscone
+    # NOTE: uncomment exlibs lines if you want to link
+    # NOTE: fjcore, heptoptagger to the core of HELAC-Onia
+    #exlibs="$exlibs -lfjcore"
+    #if [[ $exlibs != *"-lstdc++"* ]]
+    #then
+    #	exlibs="$exlibs -lstdc++"
+    #fi
+    makemore="$makemore makefile_fjcore"
+    # use HEPTopTagger with fjcore
+    #exlibs="$exlibs -lheptoptagger"
+    makemore="$makemore makefile_fjcore_heptoptagger"
+fi
+# write makefile
+write_makefile(){
+    local incfile="$1"
+    local outfile="$2"
+    if [ $outfile == "makefile" ]
+    then
+	local lhapdfobj=""
+    else
+	local lhapdfobj="\$(objdir)$3"
+    fi
+    line=""
+    #cat ./input/template_files/makefile.inc | while read tmpline
+    cat $incfile | while read tmpline
+    do
+#    echo `expr substr "$tmpline" 2 4`                                          
+	if [ "$tmpline" == "FC=" ]
+	then
+            tmpline="$tmpline $FC"
+#    elif [ "$tmpline" == "exe=" ]
+#    then
+#        tmpline="$tmpline $exefile"
+	elif [ "$tmpline" == "HODIR=" ]
+	then
+	    tmpline="$tmpline $PWD"
+	elif [ "$tmpline" == "EXLIBS =" ]
+	then
+	    tmpline="$tmpline $exlibs"
+	elif [ "$tmpline" == "MAKEMORE =" ]
+	then
+	    tmpline="$tmpline $makemore"
+	elif [ "$tmpline" == "lhapdfobj=" ]
+	then
+	    if [ -r "$PWD/input/paths/lhapdfpath" ]
+	    then
+		tmpline="$tmpline \$(objdir)Structf_LHAPDFs.o"
+		tmpline="$tmpline $lhapdfobj"
+	    fi
+	elif [ "$tmpline" == "FASTJETPATH =" ]
+	then
+	    if [ -r "$PWD/input/paths/fastjetpath" ]
+	    then
+		tmpline="$tmpline $fastjetmainpath"
+	    fi
+	elif [ "$tmpline" == "end" ]
+	then
+#       -s file exists and is not empty                                         
+#       -f file exists and is not a directory                                   
+#       -d directory exists                                                     
+#       -x file is executable
+#       -w file is writable                                                     
+#       -r file is readable                                                     
+            if [ -f $outfile ]
+            then
+		rm -f $outfile
+            fi
+            echo $echooption "$line" >> $outfile # makefile
+            break
+	else
+            ttmpline=${tmpline:1:4}
+            if [ "$ttmpline" == "(FC)" ]
+            then
+		tmpline="\t$tmpline"
+            fi
+            ttmpline=${tmpline:0:2}
+            if [ "$ttmpline" == "rm" ] || [ "$ttmpline" == "ln" ] || [ "$ttmpline" == "(c" ]
+            then
+		tmpline="\t$tmpline"
+            fi
+	    ttmpline=${tmpline:0:1}
+	    if [ "$ttmpline" == "@" ]
+	    then
+		tmpline="\t$tmpline"
+	    fi
+	fi
+	line="$line\n$tmpline"
+    done
+}
+write_makefile ./input/template_files/makefile.inc makefile
+write_makefile ./addon/pp_psipsi_DPS/template_file/makefile_pp_psipsi_DPS.inc ./addon/pp_psipsi_DPS/makefile_pp_psipsi_DPS pp_psipsi_DPS_LHAPDFs.o
+write_makefile ./addon/pp_psiX_CrystalBall/template_file/makefile_pp_psiX_CrystalBall.inc ./addon/pp_psiX_CrystalBall/makefile_pp_psiX_CrystalBall pp_psiX_cb_LHAPDFs.o
+write_makefile ./addon/fit_pp_psiX_CrystalBall/template_file/makefile_fit_pp_psiX_CrystalBall.inc ./addon/fit_pp_psiX_CrystalBall/makefile_fit_pp_psiX_CrystalBall fit_cb_LHAPDFs.o
+write_makefile ./addon/fit_pp_upsilonX_CrystalBall/template_file/makefile_fit_pp_upsilonX_CrystalBall.inc ./addon/fit_pp_upsilonX_CrystalBall/makefile_fit_pp_upsilonX_CrystalBall fit_cb_LHAPDFs.o
+write_makefile ./addon/fit_pp_QQ_CrystalBall/template_file/makefile_fit_pp_QQ_CrystalBall.inc ./addon/fit_pp_QQ_CrystalBall/makefile_fit_pp_QQ_CrystalBall fit_cb_LHAPDFs.o
+write_makefile ./addon/pp_QQ_CrystalBall/template_file/makefile_pp_QQ_CrystalBall.inc ./addon/pp_QQ_CrystalBall/makefile_pp_QQ_CrystalBall pp_QQ_cb_LHAPDFs.o
+write_makefile ./analysis/heptoptagger/makefile_fastjet_heptoptagger.inc ./analysis/heptoptagger/makefile_fastjet_heptoptagger dummy.o
+write_makefile ./jets/fastjet/makefile_fastjetfortran.inc ./jets/fastjet/makefile_fastjetfortran dummy.o
+write_makefile ./addon/pp_aajj_DPS/template_file/makefile_pp_aajj_DPS.inc ./addon/pp_aajj_DPS/makefile_pp_aajj_DPS pp_aajj_DPS_LHAPDFs.o
+# compile
+make
+# know whether heptoptagger is compiled or not
+# if not the reason can be: 1) cannot find libgfortran 2) use gcc version >= 4.5
+# compile the HepMC2Plot
+# it provides an useful tool to analysis .hep file directly
+if [ -r "$PWD/input/paths/hepmcpath" ]
+then
+    if [ -r "$PWD/input/paths/fastjetpath" ]
+    then
+	# link to fastjet
+	fastjetlibflag=`$fastjetpath --libs`
+	EXTRALIBS="$fastjetlibflag"
+	if [[ $EXTRALIBS != *"-lfastjetplugins"* ]]
+	then
+	    EXTRALIBS="$EXTRALIBS -lfastjetplugins"
+	fi
+	if [[ $EXTRALIBS != *"-lsiscone"* ]]
+	then
+	    EXTRALIBS="$EXTRALIBS -lsiscone -lsiscone_spherical"
+	fi
+	EXTRALIBS="$EXTRALIBS -lstdc++"
+	EXTRALIBS="$EXTRALIBS -lfastjetfortran"
+	if [ -f "./lib/libheptoptagger.a" ]
+	then
+	    EXTRALIBS="$EXTRALIBS -lheptoptagger"
+	else
+	    echo "WARNING:Failed to compile heptoptagger"
+            echo "WARNING:The functionality will be switched off"
+            echo "WARNING:Possible reasons are:"
+            echo "WARNING:1) Cannot find libgfortran"
+            echo "WARNING:2) the version of gcc >= 4.5"
+	fi
+	EXTRAPATHS="-L../../lib"
+    else
+	# link to fjcore
+	EXTRALIBS="-lfjcore"
+	if [ -f "./lib/libheptoptagger.a" ]
+	then
+	    EXTRALIBS="$EXTRALIBS -lheptoptagger"
+	else
+	    echo "WARNING:Failed to compile heptoptagger"
+            echo "WARNING:The functionality will be switched off"
+            echo "WARNING:Possible reasons are:"
+            echo "WARNING:1) Cannot find libgfortran"
+            echo "WARNING:2) the version of gcc >= 4.5"
+	fi
+	EXTRAPATHS="-L../../lib"
+    fi
+    # try to find the correct path for libgfortran
+    # from PATH, LD_LIBRARY_PATH, DYLD_LIBRARY_PATH 
+    arr=$(echo $PATH | tr ":" "\n")
+    LIBGFORTRANPATH=""
+    for xx in $arr
+    do
+	if [ -f "$xx/lib$FC.a" ]
+	then
+	    LIBGFORTRANPATH="-L$xx"
+	    break
+	fi
+    done
+    if [ "$LIBGFORTRANPATH" == "" ]
+    then
+	arr=$(echo $LD_LIBRARY_PATH | tr ":" "\n")
+	for xx in $arr
+	do
+	    if [ -f "$xx/lib$FC.a" ]
+	    then
+		LIBGFORTRANPATH="-L$xx"
+		break
+	    fi
+	done
+	if [ "$LIBGFORTRANPATH" == "" ]
+	then
+	    arr=$(echo $DYLD_LIBRARY_PATH | tr ":" "\n")
+	    for xx in $arr
+	    do
+		if [ -f "$xx/lib$FC.a" ]
+		then
+		    LIBGFORTRANPATH="-L$xx"
+		    break
+		fi
+	    done
+	fi
+    fi
+    if [ "$LIBGFORTRANPATH" == "" ]
+    then
+	echo "WARNING:Cannot find $FC lib in PATH,LD_LIBRARY_PATH and DYLD_LIBRARY_PATH"
+	echo "WARNING:We will not compile HepMC2Plot anymore"
+    else
+	read -r HEPMCLOCATION<"./input/paths/hepmcpath"
+	cd ./analysis/HepMC
+	ifile="run_make_hepmc2plot.sh"
+	if [ -f ./$ifile ]
+	then
+	    rm ./$ifile
+	fi
+	cat <<EOF > $ifile
+#!/usr/bin/env bash
+
+echo "Please enter in the plot file with .f90 extension :"
+while read FORFILE
+do
+    if [ ! -f "\$FORFILE" ]
+    then
+        echo "\$FORFILE does not exist"
+        echo "exit(y/n) ?"
+        read x
+        if [ "\$x" == "y" ]
+        then
+            exit
+        else
+            echo "input the valid plot file with .f90 extension again"
+        fi
+    else
+        break
+    fi
+done
+echo "The HepMC plot file is \$FORFILE"
+arr=\$(echo \$FORFILE | tr ".f90" "\n")
+FORFILE=\$arr.o
+make clean -f makefile_hepmc2plot
+make -f makefile_hepmc2plot FORFILE=\$FORFILE LIBGFORTRANPATH="$LIBGFORTRANPATH" LIBGFORTRAN=-l$FC EXTRALIBS="$EXTRALIBS" EXTRAPATHS="$EXTRAPATHS" INCLOPTION="$INCLOPTION" HEPMCLOCATION="$HEPMCLOCATION"
+ 
+EOF
+	chmod +x $ifile
+	./$ifile < default_plot.ho
+	cd ../../
+	echo "INFO:The default plot file is compiled with HepMC2Plot"
+	echo "INFO:You can change the plot file in analysis/HepMC"
+	echo "INFO:and compile it via bash shell script $ifile"
+    fi
+    # configure for HepMC2Root
+    # a small code for converting HepMC to Root Trees
+    if [ -r "$PWD/input/paths/rootpath" ]
+    then
+	if [ -r "$PWD/input/paths/fastjetpath" ]
+	then
+	    # link to fastjet
+	    #EXTRALIBS=$EXTRALIBS
+	    #EXTRAPATHS=$EXTRAPATHS
+	    INCLUDEPATH="-I$fastjetincludepath"
+	    if [ -f "$PWD/lib/libheptoptagger.a" ]
+	    then
+		INCLUDEPATH="$INCLUDEPATH -I../heptoptagger"
+	    fi
+	    defaultfile="default_root_fastjet.ho"
+	else
+	    # link to fjcore
+	    INCLUDEPATH="-I../../jets/fjcore"
+            if [ -f "$PWD/lib/libheptoptagger.a" ]
+		    then
+		INCLUDEPATH="$INCLUDEPATH -I../heptoptagger"
+            fi
+	    defaultfile="default_root_fjcore.ho"
+	fi
+	read -r HEPMCLOCATION<"./input/paths/hepmcpath"
+	# try to check whether TTree.h is in the root directory
+	read -r ROOTLOCATION<"./input/paths/rootpath"
+	if [ -f $ROOTLOCATION/include/TTree.h ]
+	then
+	    # the root direcotry is correct
+	    cd ./analysis/HepMC
+	    ifile="run_make_hepmc2root.sh"
+	    if [ -f ./$ifile ]
+	    then
+		rm ./$ifile
+	    fi
+	    cat <<EOF > $ifile
+#!/usr/bin/env bash
+
+echo "Please enter in the C++ HepMC2Root main file :"
+while read MAINFILE
+do
+    if [ ! -f "\$MAINFILE" ]
+    then
+        echo "\$MAINFILE doesnot exist"
+        echo "exit(y/n) ?"
+        read x
+        if [ "\$x" == "y" ]
+        then
+            exit
+        else
+            echo "input the valid C++ HepMC2Root main file again"
+        fi
+    else
+        break
+    fi
+done
+echo "The C++ HepMC2Root main file is \$MAINFILE"
+
+make clean -f makefile_hepmc2root
+make -f makefile_hepmc2root MAINFILE=\$MAINFILE FORFILE=\$FORFILE LIBGFORTRANPATH= LIBGFORTRAN= EXTRALIBS="$EXTRALIBS" EXTRAPATHS="$EXTRAPATHS" INCLOPTION="$INCLUDEPATH" HEPMCLOCATION="$HEPMCLOCATION" ROOTLOCATION="$ROOTLOCATION" 
+
+EOF
+	    chmod +x $ifile
+	    ./$ifile < $defaultfile
+	    cd ../../
+	    echo "INFO:The default C++ HepMC2Root Main file (listed in analysis/HepMC/$defaultfile) is compiled"
+	    echo "INFO:You can change the C++ main file in analysis/HepMC"
+	    echo "INFO:and compile it via bash shell script $ifile"
+	else
+	    # cannot find the correct root path
+	    echo "WARNING:The root path $ROOTLOCATION is wrong"
+	    echo "WARNING:In order to let HepMC2Root work,"
+	    echo "WARNING:please specify the correct root path in input/ho_configuration.txt"
+	    echo "WARNING:or in the system enviroment via ROOTSYS or PATH"
+	    echo "WARNING:and do configure again via ./config"
+	    echo "WARNING:or change the bash shell script in ./analysis/HepMC"
+	    echo "WARNING:following the way of local_compile_hepmc2root.sh."
+	    echo "WARNING:Now, the HepMC2Root is not available ."
+	fi    
+    fi
+fi
+# compile LHE2Topdrawer
+cd ./analysis/LesHouches/LHE2Topdrawer
+sh run_make_lhe2topdrawer.sh < default_analysis.ho
+cd ../../../
+#       -s file exists and is not empty
+#       -f file exists and is not a directory
+#       -d directory exists
+#       -x file is executable
+#       -w file is writable
+#       -r file is readable
+if [ -f $PWD/ho_cluster ];
+then
+    rm $PWD/ho_cluster
+fi
+ln -s $PWD/cluster/bin/ho_cluster $PWD/ho_cluster
+if [ -f $PWD/bin/ho_cluster ];
+then
+    rm $PWD/bin/ho_cluster
+fi
+ln -s $PWD/cluster/bin/ho_cluster $PWD/bin/ho_cluster

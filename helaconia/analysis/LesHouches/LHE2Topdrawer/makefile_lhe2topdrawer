@@ -1,0 +1,27 @@
+
+LIBDIR = ../../../lib
+EXE= LHE2Topdrawer
+BIN= ../../../bin/
+
+include ../make_opts
+
+#PROCESS = analysis_td.o
+
+LINKLIBS = -L$(LIBDIR) -lhbook
+
+all: ${EXE}
+
+${EXE}: lhe_to_topdrawer.o $(PROCESS)
+	$(FC) $(FFLAGS) -o ${BIN}${EXE} lhe_to_topdrawer.o $(PROCESS) $(LINKLIBS) -I../../hbook/
+
+%.o : %.f
+	$(FC) $(FFLAGS) -c $< -I../../hbook/
+
+#$(LIBDIR)$(LIBRARY): dbook.o
+#	$(call CREATELIB, $@, $^)
+
+clean_all:
+	$(RM) *.o *~ ${BIN}${EXE}
+
+clean:
+	$(RM) lhe_to_topdrawer.o $(PROCESS) *~ ${BIN}${EXE}

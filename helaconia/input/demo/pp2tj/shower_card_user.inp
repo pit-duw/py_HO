@@ -1,0 +1,31 @@
+#============================================================
+#=                                                          =
+#=                     H E L A C - O n i a                  =
+#=                                                          =
+#=  A file to be used to set the parameters for the shower. =
+#=                                                          =
+#=  It is in the same format as a bash shell script,        =
+#=  and it will be used with the shower script.             =
+#=                                                          =
+#=  Lines starting with a hash (#) are comments             =
+#=                                                          =
+#============================================================
+NEVENTS         = -1        # N evts to shower (<0 = all)
+RND_SEED        = 0         # 1st random seed (0 = default)
+RND_SEED2       = 0         # 2nd random seed (0 = default) ONLY FOR HERWIG6
+MAXPRINT        = 2         # the number of events to be printed
+MAXERRS         = 0.1       # max fraction of errors
+UE_ENABLED      = F         # underlying event
+HADRONIZE       = T         # hadronisation on/off, IGNORED BY HERWIG6
+LAMBDA_5        = -1        # Lambda_5 (< 0 = default), IGNORED BY PYTHIA8
+B_STABLE        = F         # set B hadrons stable
+PI_STABLE       = T         # set pi0 stable
+WP_STABLE       = F         # set W+ stable
+WM_STABLE       = F         # set W- stable
+Z_STABLE        = F         # set Z stable
+H_STABLE        = F         # set Higgs stable
+TAP_STABLE      = F         # set tau+ stable
+TAM_STABLE      = F         # set tau- stable
+MUP_STABLE      = F         # set mu+ stable
+MUM_STABLE      = F         # set mu- stable
+ANALYSE         = plot_py8_pp_tj  # use analysis plot file WITHOUT extension 

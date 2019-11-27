@@ -1,0 +1,3 @@
+mass_c  1.5d0  # charm quark
+mass_D0 1.86484d0   # D0/D0bar mass
+mass_Dstar 2.01026d0   # D*+- mass
