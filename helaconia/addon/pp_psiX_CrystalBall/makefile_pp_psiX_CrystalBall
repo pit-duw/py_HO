@@ -1,5 +1,5 @@
 
-HODIR= /Users/erdissshaw/Works/HELAC-Onia/HELAC-Onia-2.0.0
+HODIR= /local0/p_duwe01/py_HO/helaconia
 FC= gfortran
 objdir=$(HODIR)/addon/pp_psiX_CrystalBall/obj/
 moddir=$(HODIR)/addon/pp_psiX_CrystalBall/mod/
@@ -13,7 +13,7 @@ obj=$(objdir)Helac_Global.o $(objdir)Helac_Func_1.o  $(objdir)Constants.o $(objd
 mod = $(moddir)*.mod
 exe = $(HODIR)/bin/HO_pp_psiX_CrystalBall
 linkexe = $(HODIR)/addon/pp_psiX_CrystalBall/bin/HO_pp_psiX_CrystalBall
-EXLIBS =  -L/Users/erdissshaw/Works/LHAPDF/lhapdf_installing/lib -lLHAPDF
+EXLIBS =  -L/local0/p_duwe01/LHAPDF/lib -lLHAPDF
 all :   clean $(exe)
 	ln -s $(exe) $(linkexe)
 

@@ -1,5 +1,5 @@
 
-HODIR= /Users/erdissshaw/Works/HELAC-Onia/HELAC-Onia-2.0.0
+HODIR= /local0/p_duwe01/py_HO/helaconia
 FC= gfortran
 objdir=$(HODIR)/addon/fit_pp_psiX_CrystalBall/obj/
 moddir=$(HODIR)/addon/fit_pp_psiX_CrystalBall/mod/
@@ -11,7 +11,7 @@ obj=$(objdir)plot_fit_cb.o $(objdir)fit_cb_global.o $(objdir)fit_crystalball.o $
 mod = $(moddir)*.mod
 exe = $(HODIR)/bin/HO_fit_pp_psiX_CrystalBall
 linkexe = $(HODIR)/addon/fit_pp_psiX_CrystalBall/bin/HO_fit_pp_psiX_CrystalBall
-EXLIBS =  -L/Users/erdissshaw/Works/LHAPDF/lhapdf_installing/lib -lLHAPDF
+EXLIBS =  -L/local0/p_duwe01/LHAPDF/lib -lLHAPDF
 all :   clean $(exe)
 	ln -s $(exe) $(linkexe)
 
