@@ -53,4 +53,3 @@ for i in range(min_ev_pdf, max_ev_pdf+1):
 
 set_pdf(central_value_pdf)
 
-os.system('rm ./helaconia/addon/fit_pp_psiX_CrystalBall/input/fit_param_card.inp')
