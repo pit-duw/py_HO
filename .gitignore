@@ -57,19 +57,7 @@ docs/_build/
 # PyBuilder
 target/
 
-helaconia/mod/
-helaconia/obj/
-
-helaconia/Helac-Onia
-
-helaconia/bin/Helac-Onia
-
+helaconia/PROC*
 PROC*/
-helaconia/addon/*/mod/
-helaconia/addon/*/obj/
-
-helaconia/addon/fit_pp_psiX_CrystalBall/bin/HO_fit_pp_psiX_CrystalBall
-
-helaconia/bin/HO_fit_pp_psiX_CrystalBall
-
 asd/
+helaconia/input/ho_configuration.txt

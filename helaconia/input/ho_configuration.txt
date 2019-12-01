@@ -14,7 +14,7 @@
 
 #! lhapdf-config
 #!  If None: try to find one available on the system
- lhapdf = /local0/p_duwe01/LHAPDF/bin/lhapdf-config
+ lhapdf = /usr/local/bin/lhapdf-config
 
 #! fastjet-config
 #!  If None: try to find one available on the system

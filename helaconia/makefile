@@ -12,7 +12,7 @@ obj=$(objdir)Helac_Global.o $(objdir)Helac_Func_1.o  $(objdir)Feynman_Helac.o $(
 mod = $(moddir)/*.mod
 exe = $(PWD)/bin/Helac-Onia
 linkexe = $(PWD)/Helac-Onia
-EXLIBS =  -L/local0/p_duwe01/LHAPDF/lib -lLHAPDF
+EXLIBS =  -L/usr/local/lib -lLHAPDF
 MAKEMORE =  makefile_fjcore makefile_fjcore_heptoptagger
 all :   clean $(exe)
 	ln -s $(exe) $(linkexe)

@@ -1,5 +1,5 @@
 
-HODIR= /local0/p_duwe01/py_HO/helaconia
+HODIR= /home/pit/py_HO/helaconia
 FC= gfortran
 objdir=$(HODIR)/addon/pp_QQ_CrystalBall/obj/
 moddir=$(HODIR)/addon/pp_QQ_CrystalBall/mod/
@@ -13,7 +13,7 @@ obj=$(objdir)Helac_Global.o $(objdir)Helac_Func_1.o  $(objdir)Constants.o $(objd
 mod = $(moddir)*.mod
 exe = $(HODIR)/bin/HO_pp_QQ_CrystalBall
 linkexe = $(HODIR)/addon/pp_QQ_CrystalBall/bin/HO_pp_QQ_CrystalBall
-EXLIBS =  -L/local0/p_duwe01/LHAPDF/lib -lLHAPDF
+EXLIBS =  -L/usr/local/lib -lLHAPDF
 all :   clean $(exe)
 	ln -s $(exe) $(linkexe)
 
