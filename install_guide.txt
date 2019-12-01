@@ -1,0 +1,5 @@
+Step 1: get the file /input/ho_configuration.txt from a HELAC-Onia 2.0.1 download and put it into the py_HO/helaconia/input folder
+Step 2: modify the ho_configuration.txt file by replacing "lhapdf-config" with "path/to/lhapdf/bin/lhapdf-config" the first version does not work, even if your LHAPDF PATH is set properly.
+Step 3: ./config in the helaconia folder
+Step 4: make in the helaconia folder (do not use multiple cores e.g. "make -j4" because make might fail then)
+Step 5: Should now be ready (assuming you have all necessary pdfs installed in your LHAPDF)
