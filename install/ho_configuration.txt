@@ -13,7 +13,7 @@
 # fortran_compiler = None
 
 #! lhapdf-config
-#!  If None: try to find one available on the system
+#!  Put the full path to your lhapdf-config binary here
  lhapdf = /local0/p_duwe01/LHAPDF/bin/lhapdf-config
 
 #! fastjet-config

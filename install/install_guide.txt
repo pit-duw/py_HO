@@ -1,0 +1,7 @@
+Step 0: Download Helaconia and put the folders contents into a folder "helaconia" inside the py_HO folder
+Step 1: copy the file ho_configuration.txt from the main folder into the helaconia/input and change the path to lhapdf-config in the file 
+Step 3: Overwrite the files Colliders_PSI1.f90 and Colliders_PSI2.f90 in the helaconia/src folder with those from the py_HO install folder.
+Step 3.1 (Optional, depends in system): in helaconia/cluster/bin/ho_cluster replace python with python2 in the very first line.
+Step 4: ./config in the helaconia folder
+Step 5: make in the helaconia folder (do not use multiple cores e.g. "make -j4" because make might fail then)
+Step 6: Should now be ready (assuming you have all necessary pdfs installed in your LHAPDF)
