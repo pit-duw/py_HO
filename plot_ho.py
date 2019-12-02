@@ -5,6 +5,9 @@ import sys
 import os
 from random import shuffle
 
+#plt.style.use("seaborn")
+
+unity = [np.array([0, 100]), np.array([1,1])]
 y_bounds = [[2, 2.5],[2.5, 3],[3, 3.5],[3.5, 4],[4, 4.5],[0, 0.75],[0.75, 1.5],[1.5, 2],[2, 2.4],[0, 0.9],[0.9, 1.2],[1.2, 1.6],[1.6, 2.1],[2.1, 2.4]]
 #data  = np.loadtxt("./PROC_HO_0/P0_addon_fit_pp_psiX_CrystalBall/output/comparison_1.dat".format(i))
 
@@ -42,10 +45,11 @@ for j in range(1,15):
     errors = np.sqrt(errors)
 
     plt.xlabel(r"$P_T$ [GeV]", fontsize = 12)
-    plt.ylabel(r"$R_{pPb}$", fontsize  = 12)
+    plt.ylabel(r"$R_{pPb} = \left(\frac{d^2\sigma_{pPb}}{dP_Tdy}\right)\cdot \left(\frac{d^2\sigma_{pp}}{dP_Tdy}\right)^{^{-1}}$", fontsize  = 12)
     plt.title(r"$\sqrt{s} = 7$ TeV                 " + "{} < $y$ < {}".format(y_bounds[j-1][0], y_bounds[j-1][1]), fontsize  = 12)
-    
-    plt.errorbar(ev_list[0][:,0], ev_list[0][:,1]/p_array, yerr = errors/p_array, zorder = 9, color = (0,0,0), fmt="")
+    plt.xlim(0,60)
+    plt.plot(unity[0], unity[1], "--", color = (0.5,0.5,0.5), zorder = 1)
+    plt.errorbar(ev_list[0][:,0], ev_list[0][:,1]/p_array, yerr = errors/p_array, zorder = 9, color = (0,0,0), fmt="", capsize=2)
     plt.scatter(ev_list[0][:,0], ev_list[0][:,1]/p_array, marker="o", zorder = 999, color = (0,0,0), s = 40)
     plt.savefig("plots/comparison_{}".format(j))
     plt.show()
