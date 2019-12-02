@@ -1,7 +1,0 @@
-# The following are the variables that will be analysed in MVA
-# the format is
-# variable_name type
-# where type can be float (F), integer (I), bool (B) etc
-# the variable_name should be those defined in the ROOT TTree
-MET_et  F
-MET_phi F

@@ -1,8 +1,0 @@
-set title
-FIT DELTA S/ DELTA Q RULE TO LEPTONIC K ZERO DECAYS
-parameters
-1 'Real(X)' 0. .1
-2 'Imag(X)' 0. .1
-5 'Delta M'  .535 .01
-10 'K Short LT' .892
-11 'K Long LT'   518.3

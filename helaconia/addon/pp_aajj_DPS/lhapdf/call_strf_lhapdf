@@ -1,6 +1,0 @@
-
-IF(uselhapdf)THEN
- CALL strf_lhapdf_pp_aajj_dps(ipip,id1,id2,wsf)
- RETURN
-ENDIF
-

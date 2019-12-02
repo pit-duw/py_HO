@@ -1,4 +1,0 @@
-# Event weight for MVA
-# one should use the C++ language
-SignalWeight = evt_weight
-BackgroundWeight = evt_weight

@@ -1,6 +1,0 @@
-
-IF(uselhapdf)THEN
- CALL strf_lhapdf_pp_psiX_cb(wsf)
- RETURN
-ENDIF
-
