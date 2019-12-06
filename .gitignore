@@ -82,4 +82,6 @@ helaconia/Helac-Onia
 helaconia/config
 helaconia/CHANGES
 helaconia/input/ho_configuration.txt
+helaconia/input/paths/
+helaconia/cluster/bin/ho_cluster
 
