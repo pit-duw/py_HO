@@ -1,0 +1,52 @@
+dependent_variables:
+- header: {name: '$\text{d}^{2}\sigma/\text{d}p_{\rm T}\text{d}y$ ($\mu$b/(GeV/$c$))'}
+  qualifiers:
+  - {name: YRAP(RF=CM), value: -0.9 TO 0.9}
+  - {name: RE, value: P P --> J/PSI <E+ E-> X}
+  - {name: SQRT(S), units: GEV, value: '5020.0'}
+  values:
+  - errors:
+    - {label: stat, symerror: '81.763'}
+    - {label: sys, symerror: '42.756'}
+    - {label: 'sys,Lumi', symerror: '17.189'}
+    value: '818.543'
+  - errors:
+    - {label: stat, symerror: '131.027'}
+    - {label: sys, symerror: '90.951'}
+    - {label: 'sys,Lumi', symerror: '35.045'}
+    value: '1668.798'
+  - errors:
+    - {label: stat, symerror: '115.990'}
+    - {label: sys, symerror: '74.888'}
+    - {label: 'sys,Lumi', symerror: '27.641'}
+    value: '1316.231'
+  - errors:
+    - {label: stat, symerror: '77.730'}
+    - {label: sys, symerror: '45.800'}
+    - {label: 'sys,Lumi', symerror: '16.697'}
+    value: '795.081'
+  - errors:
+    - {label: stat, symerror: '53.761'}
+    - {label: sys, symerror: '27.053'}
+    - {label: 'sys,Lumi', symerror: '10.180'}
+    value: '484.755'
+  - errors:
+    - {label: stat, symerror: '22.996'}
+    - {label: sys, symerror: '13.244'}
+    - {label: 'sys,Lumi', symerror: '4.341'}
+    value: '206.734'
+  - errors:
+    - {label: stat, symerror: '10.077'}
+    - {label: sys, symerror: '4.078'}
+    - {label: 'sys,Lumi', symerror: '1.247'}
+    value: '59.391'
+independent_variables:
+- header: {name: '$p_{\rm T}$ (GeV/$c$)'}
+  values:
+  - {value: '0.50'}
+  - {value: '1.50'}
+  - {value: '2.50'}
+  - {value: '3.50'}
+  - {value: '4.50'}
+  - {value: '6.00'}
+  - {value: '8.50'}

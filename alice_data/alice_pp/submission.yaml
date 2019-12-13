@@ -1,0 +1,86 @@
+additional_resources: []
+comment: CERN-LHC. Inclusive J/$\psi$ production is studied in minimum-bias proton-proton
+  collisions at a centre-of-mass energy of $\sqrt{s} = 5.02$ TeV by ALICE at the CERN
+  LHC. The measurement is performed at mid-rapidity ($|y| < 0.9$) in the dielectron
+  decay channel down to zero transverse momentum $p_{\rm T}$, using a data sample
+  corresponding to an integrated luminosity of $19.4 \pm 0.4 $ nb$^{-1}$. The measured
+  $p_{\rm T}$-integrated inclusive J/$\psi$ production cross section is $\text{d}\sigma/\text{d}y
+  = 5.64 \pm 0.22 (\text{stat.}) \pm 0.33 (\text{syst.}) \pm 0.12 (\text{lumi.})$
+  $\mu$b. The $p_{\rm T}$-differential cross section $\text{d}^2\sigma/\text{d}p_{\rm
+  T}\text{d}y$ is measured in the $p_{\rm T}$ range 0$-$10 GeV/$c$ and compared with
+  state-of-the-art perturbative QCD calculations. The J/$\psi$ $\langle p_{\rm T}
+  \rangle$ and $\langle p_{\rm T}^2 \rangle$ are extracted and compared with results
+  obtained at other collision energies.
+hepdata_doi: 10.17182/hepdata.91186.v1
+record_ids:
+- {id: 0, type: durham}
+- {id: 0, type: inspire}
+- {id: 0, type: cds}
+---
+additional_resources: []
+data_file: data1.yaml
+data_license: {description: null, name: null, url: null}
+description: $p_{\rm T}$-integrated inclusive J/$\psi$ cross section.
+keywords:
+- name: reactions
+  values: [P P --> J/PSI X]
+- name: observables
+  values: [DSIG/DYRAP]
+- name: phrases
+  values: []
+- name: cmenergies
+  values: [5020.0]
+location: Data from Figure 2 (red, circle)
+name: Table 1
+table_doi: 10.17182/hepdata.91186.v1/t1
+---
+additional_resources: []
+data_file: data2.yaml
+data_license: {description: null, name: null, url: null}
+description: $p_{\rm T}$-differential inclusive J/$\psi$ cross section.
+keywords:
+- name: reactions
+  values: [P P --> J/PSI X]
+- name: observables
+  values: [DSIG/DPTDYRAP]
+- name: phrases
+  values: []
+- name: cmenergies
+  values: [5020.0]
+location: Data from Figure 3 (red, circle)
+name: Table 2
+table_doi: 10.17182/hepdata.91186.v1/t2
+---
+additional_resources: []
+data_file: data3.yaml
+data_license: {description: null, name: null, url: null}
+description: Mean $p_{\rm T}$ square of the inclusive J/$\psi$ spectrum at 5.02 TeV.
+keywords:
+- name: reactions
+  values: [P P --> J/PSI X]
+- name: observables
+  values: [MEANPTSQ]
+- name: phrases
+  values: []
+- name: cmenergies
+  values: [5020.0]
+location: Data from Figure 5 upper panel (red, circle)
+name: Table 3
+table_doi: 10.17182/hepdata.91186.v1/t3
+---
+additional_resources: []
+data_file: data4.yaml
+data_license: {description: null, name: null, url: null}
+description: Mean $p_{\rm T}$ of the inclusive J/$\psi$ spectrum at 5.02 TeV.
+keywords:
+- name: reactions
+  values: [P P --> J/PSI X]
+- name: observables
+  values: [MEANPT]
+- name: phrases
+  values: []
+- name: cmenergies
+  values: [5020.0]
+location: Data from Figure 5 lower panel (red, circle)
+name: Table 4
+table_doi: 10.17182/hepdata.91186.v1/t4

@@ -1,0 +1,15 @@
+dependent_variables:
+- header: {name: '$\langle p_{\rm T}^{2} \rangle$ (GeV$^{2}$/$c^{2}$)'}
+  qualifiers:
+  - {name: YRAP(RF=CM), value: -0.9 TO 0.9}
+  - {name: RE, value: P P --> J/PSI <E+ E-> X}
+  - {name: SQRT(S), units: GEV, value: '5020.0'}
+  values:
+  - errors:
+    - {label: stat, symerror: '0.5'}
+    - {label: sys, symerror: '0.1'}
+    value: '10.2'
+independent_variables:
+- header: {name: '$\sqrt{s}$ (TeV)'}
+  values:
+  - {value: '5.02'}

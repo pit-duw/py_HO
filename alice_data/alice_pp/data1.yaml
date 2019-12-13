@@ -1,0 +1,16 @@
+dependent_variables:
+- header: {name: '$\text{d}\sigma/\text{d}y$ ($\mu$b)'}
+  qualifiers:
+  - {name: YRAP(RF=CM), value: -0.9 TO 0.9}
+  - {name: RE, value: P P --> J/PSI <E+ E-> X}
+  - {name: SQRT(S), units: GEV, value: '5020.0'}
+  values:
+  - errors:
+    - {label: stat, symerror: '0.22'}
+    - {label: sys, symerror: '0.33'}
+    - {label: 'sys,Lumi', symerror: '0.12'}
+    value: '5.64'
+independent_variables:
+- header: {name: $y$}
+  values:
+  - {value: '0.0'}
