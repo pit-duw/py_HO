@@ -1,0 +1,7 @@
+# experimental data d^2sigma/dpT/dy [ALICE_pPb_1802.00765]
+# energy ylow yup nbin
+5020.0 -1.4 0.4 3
+# ptlow ptup value err
+1.3 3.0 200.0 43.1045241245
+3.0 5.0 111.0 17.1172427686
+5.0 10.0 18.7 3.24807635378

@@ -1,0 +1,271 @@
+colpar 3			# colliding particles: 1=pp, 2=ppbar, 3=e+e-
+fixtarget F                     # A fixed-target experiment (T) or not (F)
+energy_beam1 7000          	# beam 1 energy (GeV)
+energy_beam2 7000               # beam 2 energy (GeV)
+# summation mode is not tested yet
+nglu -1                # in summation mode, n. of gluons in the final state; enter -1 to not constrain it
+qnum 4 5               # number of flavors taken into account in summation mode, resp. in initial and final state
+iqnum 4                # number of flavors taken into account in summation mode, resp. in initial state
+fqnum 5                # number of flavors taken into account in summation mode, resp. in final state
+ktrw F                 # ktreweight on/off, MLM-scheme reweighting, then passing to PYTHIA
+ktmeasure 1            # 1:ordinary kt-measure; 2: kt-measure used in SHERPA or MG (arXiv:0706.2569)
+Rparameter 1d0         # parameter R or D in above two kt-measure definitions
+lrgnc F                # large NC limit on/off
+histo hi_file          # histo file
+error err_file         # error file
+gener 0                # Monte Carlo generator: 0 PHEGAS 1 RAMBO 2 DURHAM 3 VEGAS -1 From PS.input
+repeat 0               # 0= standard 1= only find skeleton 2= reads skeleton and runs
+ranhel 1               # 0= explicit sum over helicities, 1= MC sum over helicities (faster); if onep is true, ranhel defaults to 0
+alphasrun 0            # 0=alpha QCD not running, 1=alpha QCD running
+gauge 1                # 0=Feynman gauge, 1=unitary gauge
+ihiggs 0               # Include (1) or not (0) the Higgs as an intermediate state
+widsch 0               # Fixed (0) or complex (1) scheme for the introduction of the width of W and Z
+iflag 0                # 0 sum over all the helicity confs, 1 choose the specific helicity conf
+qcd 1                  # 0=only electroweak, 1=electroweak and QCD, 2=only QCD, 3=only QED, 4=QCD and QED
+unwgt T                # unweighting on/off
+lhewgtup F             # whether set xwgtup=1(F) or xwgtup=\=1(T) in unweighted les houches event file
+preunw 1000            # n. of pre-unweighted events
+unwevt 50000           # n. of unweighted events in .lhe file(in summation mode, it is the total number)
+nmc 100000             # number of montecarlo iterations (single process mode)
+nmc1 100000            # number of montecarlo iterations (summation mode, first step)
+nmc2 30000000          # number of montecarlo iterations (summation mode, second step)
+# optim 10000 10000 1 8 100000 1  # optimization: nopt,nopt_step,optf,maxopt,noptlim,iopt
+nopt 10000
+nopt_step 10000
+optf 1
+maxopt 8
+noptlim 100000
+iopt 1
+alimit 0               # The lower limit of the alpha(i) in multichannel, 0 means no lower limitation
+nlimit 10              # The lower limit of the number of channels
+lhapdf T               # use the Les Houches accord PDF library (only valid when lhapdf are installed)
+pdf 13000              # PDF number (as in file pdf/pdf_list.txt(uselhapdf=F), PDFsets.index(uselhapdf=T)); enter 0 to run without PDFs
+			  # e.g.pdf=10000 cteq6m,pdf=10041 cteq6l, pdf=10042 cteq6l1
+reweight_pdf F         # reweight to get PDF uncertainty, only works when lhapdf = T
+pdf_min 21101          # first of the error pdf sets
+pdf_max 21140          # last of the error pdf sets
+useMCFMrun T           # alphas running with MCFM (if False run it with original one)
+pythia 3  1            # IDWTUP,NPRUP
+IDWTUP 3
+NPRUP 1
+adapt F               # adapt on/off
+grid_nchmax 1000      # maximum number of channels for griding
+maxadaptnum 15        # the value for maxadap_adapt in Adapt.f90
+ptdisQ F               # whether return the pt distribution of the first final Quarkonium
+Pt1 0d0               # the pt value of the first final hadron in GeV when ptdisQ T
+itmax   1              # the number interation itmax in VEGAS
+Scale 0                # 0 means fixed scheme, 1 means Sqrt(m1**2+pt1**2),2 means Sqrt(sum(mi,i=3,n)**2+pt1**2)
+FScaleValue 12.8d0     # the scale value in the fixed scheme
+ScaleFactor 1d0        # the true scale is FScaleValue*ScalarFactor (Scale=0), Sqrt(m1**2+pt1**2)*ScalarFactor (Scale=1),etc
+reweight_Scale F       # reweight to get scale dependence (only when alphasrun=T)
+rw_RScale_down 0.5d0  # lower bound for renormalization scale variations
+rw_RScale_up   2.0d0  # upper bound for renormalization scale variations
+rw_FScale_down 0.5d0  # lower bound for factorization scale variations
+rw_FScale_up   2.0d0  # upper bound for factorization scale variations
+exp3pjQ   F            # open (T) or not open (F) explici 3pj modes,if opened,returns 3pj (j=0,1,2) seperately.
+modes 0                # modes 0: unpolarized mode 1: polarization mode; When modes=1, the exp3pjQ for
+                       # 3pj1 polarization must be set True.
+LSJ   1                # SDME1,SDME2 represent 0:L,1:S,2:J
+SDME1 0                # The first index for the Spin Density Matrix Element of the first quarkonium
+SDME2 0                # The second index for the Spin Density Matrix Element of the first quarkonium
+PolarFrame 1           # 1: Helicity Frame 2: Collins-Soper Frame 3:Gottfried-Jackson frame 4:Target frame
+SDPart 1               # 1: calculate the positve part of NonDiagonal SDMEs 
+			  # -1:calculate the negative part of NonDiagonal 0: both part
+quarksumQ F            # if quarksumQ=.TRUE., every flavor quark will be treated as up quark in QCD
+			 # down type quark treated as down quark in others(except QCD) and the pdf will be summed.
+OctetQ T               # Whether the octet intermediate states are treated the real color octet(T) or the color nonet(F).
+MeasureSpeed F         # Measure speed (T) or not (F)
+topdrawer_output F     # topdrawer output file (T) or not (F)
+gnuplot_output F       # gnuplot output file (T) or not (F)
+root_output F          # root output file (T) or not (F)
+emep_ISR_shower 0           # 0: no ISR shower; 1: ISR by QEDPS
+parton_shower   0           # 0: no shower; >0 : shower by PYTHIA8(1), PYTHIA6PT(2), PYTHIA6Q(3), HERWIG6(4), HERWIGPP(5)
+
+# pp(bar) cuts
+cutoffp 1.0d-3         # cutoff (pp(bar) case)
+minptl 1.0d-3          # minimum lepton pt
+minptq 8.d0            # minimum quark pt
+minptc 8.d0            # minimum charm pt
+minptb 8.d0            # minimum bottom pt
+minptt 0.d0            # minimum top pt
+minptp 8.d0            # minimum photon pt
+minptconia 0.d0        # minimum charmonium pt
+minptbonia 0.d0        # minimum bottomnium pt
+minptBconia 0.d0       # minimum Bc pt
+maxptl -1.0d0          # maximum lepton pt, negative no such cut
+maxptq -1.0d0          # maximum quark pt, negative no such cut
+maxptc -1.0d0          # maximum charm pt, negative no such cut
+maxptb -1.0d0          # maximum bottom pt, negative no such cut
+maxptt -1.0d0          # maximum top pt, negative no such cut
+maxptp -1.0d0          # maximum photon pt, negative no such cut
+maxptconia -1.0d0      # maximum charmonium pt, negative no such cut
+maxptbonia -1.0d0      # maximum bottomnium pt, negative no such cut
+maxptBconia -1.0d0     # maximum Bc pt, negative no such cut
+maxrapl 10.d0          # maximum lepton rapidity
+maxyrapl 100d0          # maximum lepton y rapidity
+minyrapl 0d0           # minimum lepton y rapidity
+maxrapq 2.d0           # maximum quark rapidity
+maxyrapq 100.d0          # maximum quark y rapidity
+minyrapq 0d0             # minimum quark y rapidity
+maxrapc 2.d0           # maximum charm rapidity
+maxyrapc 100.d0          # maximum charm y rapidity
+minyrapc 0d0             # minimum charm y rapidity
+maxrapb 2.d0           # maximum bottom rapidity
+maxyrapb 100.d0          # maximum bottom y rapidity
+minyrapb 0d0            # minimum bottom y rapidity
+maxrapt 10.d0          # maximum top rapidity
+maxyrapt 100.d0         # maximum top y rapidity
+minyrapt 0d0            # minimum top y rapidity
+maxrapp 2.d0           # maximum photon rapidity
+maxyrapp 100d0          # maximum photon y rapidity
+minyrapp 0d0            # minimum photon y rapidity
+maxrapconia 2.d0         # maximum charmonium rapidity
+maxyrapconia 100d0        # maximum charmonium y rapidity
+minyrapconia 0d0         # minimum charmonium y rapidity
+maxrapbonia 2.d0      	  # maximum bottomnium rapidity
+maxyrapbonia 100d0     	   # maximum bottomnium y rapidity
+minyrapbonia 0d0      	    # minimum bottomnium y rapidity
+maxrapBconia 2.d0     	     # maximum Bc rapidity
+maxyrapBconia 100d0    	     # maximum Bc y rapidity
+minyrapBconia 0d0     	     # minimum Bc y rapidity
+mindrll 0.d0           # minimum delta R (lepton-lepton)
+mindrlq 0.d0           # minimum delta R (lepton-quark)
+mindrqq 0.7d0          # minimum delta R (quark-quark)
+mindrqb 0.7d0          # minimum delta R (quark-b)
+mindrbb 0.7d0          # minimum delta R (b-b)
+mindrpf 0.7d0          # minimum delta R (photon-fermion)
+minmll  0.d0           # minimum mass lepton with lepton
+minmlq  0.d0           # minimum mass lepton with quark
+minmpf  0.d0           # minimum mass photon with fermion
+minmqqp 0.d0           # minimum mass quark with quark in the pp(bar) case
+minmqb  0.d0           # minimum mass quark with b in the pp(bar) case
+minmbb  0.d0           # minimum mass b with b in the pp(bar) case
+minpt1c 0d0            # minimum pt of the first final particle in VEGAS(gener 3)
+maxpt1c -1d0           # maximum pt of the first final particle in VEGAS(gener 3), negative no cut
+maxy1c  30d0           # maximum rapidity (not pesdo!) for the first final particle
+miny1c  0d0            # minimum rapidity (not pesdo!) for the first final particle
+minmqbeam 0d0        # minimum mass u,d,s quarks and gluon with partonic beam in the pp(bar) case
+absoluterap T          # absolute rap (T) or not (F), when beam1=!=beam2, it always takes as F
+maxxFl 1d0          # maximum lepton Feynman parameter xF
+minxFl -1d0           # minimum lepton Feynman parameter xF
+maxxFq 1d0           # maximum quark Feynman parameter xF
+minxFq -1d0             # minimum quark Feynman parameter xF
+maxxFc 1d0          # maximum charm Feynman parameter xF
+minxFc -1d0             # minimum charm Feynman parameter xF
+maxxFb 1d0          # maximum bottom Feynman parameter xF
+minxFb -1d0            # minimum bottom Feynman parameter xF
+maxxFt 1d0         # maximum top Feynman parameter xF
+minxFt -1d0        # minimum top Feynman parameter xF
+maxxFp 1d0          # maximum photon Feynman parameter xF
+minxFp -1d0            # minimum photon Feynman parameter xF
+maxxFconia 1d0        # maximum charmonium Feynman parameter xF
+minxFconia -1d0         # minimum charmonium Feynman parameter xF
+maxxFbonia 1d0         # maximum bottomnium Feynman parameter xF
+minxFbonia -1d0            # minimum bottomnium Feynman parameter xF
+maxxFBconia 1d0          # maximum Bc Feynman parameter xF
+minxFBconia -1d0            # minimum Bc Feynman parameter xF
+
+# ee cuts
+cutoffe 1.0d-3         # cutoff (e+e- case)
+minenl 10.0d0          # minimum lepton energy
+minenq 10.0d0          # minimum quark energy
+minenp 10.0d0          # minimum photon energy
+minanglb 5.0d0         # minimum angle (degrees) between lepton and beam
+minangqb 5.0d0         # minimum angle (degrees) between quark and beam
+minangpb 5.0d0         # minimum angle (degrees) between photon and beam
+minangll 5.0d0         # minimum angle (degrees) between lepton and lepton
+minanglq 5.0d0         # minimum angle (degrees) between lepton and quark
+minangqq 5.0d0         # minimum angle (degrees) between quark and quark
+minangpf 5.0d0         # minimum angle (degrees) between photon and fermion
+minmqqe 10.0d0         # minimum mass quark with quark in the e+e- case
+
+# decay cuts
+decay_minptl  0d0      # minimum pt of lepton from decaying
+decay_maxycl  1d9      # maximum y rapidity of lepton from decaying
+decay_minycl  0d0      # minimum y rapidity of lepton from decaying
+decay_maxrapl 1d9      # maximum pesudo rapidity of lepton from decaying
+decay_minel   0d0      # minimum energy of lepton from decaying
+decay_maxcl   1d0      # maximum cos angle between beam and lepton from decaying
+
+# special cuts
+literature 0   # the special cutoffs in the literature, please use the 8 arXiv numbers
+
+# constants
+gfermi 1.16639d-5      # Fermi coupling constant
+alphas2 0.118d0        # not running value of the strong coupling (used only if alphasrun is 0)
+zmass 91.188d0         # Z mass
+zwidth 2.446d0         # Z width
+wmass 80.419d0         # W mass
+wwidth 2.048d0         # W width
+sin2thetaw -1          # squared sinus of Weinberg angle; if set to -1, sin2thetaw = 1-(wmass/zmass)**2
+alphaem -1             # fine structure constant; if set to -1, alphaem = sqrt(2)*gfermi*(wmass**2)*sin2thetaw/pi
+higmass 126.0d0        # Higgs mass
+higwidth 4.291d-3      # Higgs width
+emass 0.0d0            # electron mass
+mumass 0.0d0           # muon mass
+taumass 0.0d0          # tau mass
+nemass 0.0d0           # electronic neutrino mass
+nmumass 0.0d0          # muonic neutrino mass
+ntaumass 0.0d0         # tau neutrino mass
+umass 0.0d0            # up quark mass
+dmass 0.0d0            # down quark mass
+smass 0.0d0            # strange quark mass
+cmass 0.0d0            # charm quark mass
+bmass 0.0d0            # bottom quark mass
+tmass 174.3d0          # top quark mass
+twidth 1.6d0           # top quark width
+onep F                 # if T user supplied phase-space point(s)
+momin mom              # user input file for phase-space point
+momout momout          # name of output file in case onep is T
+queue1 8nm             # name of the queue where the first phase will run (only used with LSF system)
+queue2 8nm             # name of the queue where the second phase will run (only used with LSF system)
+minptmiss 0.d0         # minimum missing transverse momentum
+
+# Long Distance Matrix Element For Heavy Quarkonia
+# Long Distance Matrix Element <O(3S1[1])>=|R(0)|^2/4/Pi
+# in JHEP 02 (2008) 102  <O(3S1[1])>=(2J+1)*2Nc*|R(0)|^2/4/Pi,
+# i.e. LDME****1=<O(2S+1)LJ[1]>/2Nc/(2J+1)
+# For p-wave <O(3P0[1])>=<O(3P1[1])>=<O(3P2[1])>=3*|R'(0)|^2/4/Pi
+# in JHEP 02 (2008) 102 LDME****8=<O((2S+1)LJ[8])>/(Nc^2-1)/(2J+1)
+
+# Charmonium System
+LDMEcc1S01 0.0644578d0   # LDME for 1S0[1] charmonium
+LDMEcc3S11 0.0644578d0   # LDME for 3S1[1] charmonium
+LDMEcc1P11 0.0179049d0    # LDME for 1P1[1] charmonium
+LDMEcc3P01 0.0179049d0    # LDME for 3P0[1] charmonium
+LDMEcc3P11 0.0179049d0    # LDME for 3P1[1] charmonium
+LDMEcc3P21 0.179049d0    # LDME for 3P2[1] charmonium
+LDMEcc1S08 0.95d-2       # LDME for 1S0[8] charmonium
+LDMEcc3S18 0.265d-2      # LDME for 3S1[8] charmonium
+LDMEcc1P18 0.134287d-2   # LDME for 1P1[8] charmonium
+LDMEcc3P08 0.134287d-2   # LDME for 3P0[8] charmonium
+LDMEcc3P18 0.134287d-2   # LDME for 3P1[8] charmonium
+LDMEcc3P28 0.134287d-2   # LDME for 3P2[8] charmonium
+
+# Bottomnium System
+LDMEbb1S01 0.515556d0    # LDME for 1S0[1] bottomnium
+LDMEbb3S11 0.515556d0    # LDME for 3S1[1] bottomnium
+LDMEbb1P11 0.515556d0    # LDME for 1P1[1] bottomnium
+LDMEbb3P01 0.515556d0    # LDME for 3P0[1] bottomnium
+LDMEbb3P11 0.515556d0    # LDME for 3P1[1] bottomnium
+LDMEbb3P21 0.515556d0    # LDME for 3P2[1] bottomnium
+LDMEbb1S08 0.386667d-2   # LDME for 1S0[8] bottomnium
+LDMEbb3S18 0.386667d-2   # LDME for 3S1[8] bottomnium
+LDMEbb1P18 0.386667d-2   # LDME for 1P1[8] bottomnium
+LDMEbb3P08 0.386667d-2   # LDME for 3P0[8] bottomnium
+LDMEbb3P18 0.386667d-2   # LDME for 3P1[8] bottomnium
+LDMEbb3P28 0.386667d-2   # LDME for 3P2[8] bottomnium
+
+# Bc System
+LDMEbc1S01 0.122667d0    # LDME for 1S0[1] Bc
+LDMEbc3S11 0.122667d0    # LDME for 3S1[1] Bc
+LDMEbc1P11 0.0478333d0   # LDME for 1P1[1] Bc
+LDMEbc3P01 0.0478333d0   # LDME for 3P0[1] Bc
+LDMEbc3P11 0.0478333d0   # LDME for 3P1[1] Bc
+LDMEbc3P21 0.0478333d0   # LDME for 3P2[1] Bc
+LDMEbc1S08 0.920004d-3   # LDME for 1S0[8] Bc
+LDMEbc3S18 0.920004d-3   # LDME for 3S1[8] Bc
+LDMEbc1P18 0.35875d-3    # LDME for 1P1[8] Bc
+LDMEbc3P08 0.35875d-3    # LDME for 3P0[8] Bc
+LDMEbc3P18 0.35875d-3    # LDME for 3P1[8] Bc
+LDMEbc3P28 0.35875d-3    # LDME for 3P2[8] Bc

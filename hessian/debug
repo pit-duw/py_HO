@@ -1,0 +1,21 @@
+generate addon 3
+launch
+Traceback (most recent call last):
+  File "/local0/p_duwe01/py_HO/helaconia/cluster/pythoncode/extended_cmd.py", line 865, in onecmd
+    return self.onecmd_orig(line, **opt)
+  File "/local0/p_duwe01/py_HO/helaconia/cluster/pythoncode/extended_cmd.py", line 858, in onecmd_orig
+    return func(arg, **opt)
+  File "/local0/p_duwe01/py_HO/helaconia/cluster/pythoncode/helaconia_interface.py", line 388, in do_launch
+    run_interface.HELACOniaRunCmd(None,self.options)
+  File "/local0/p_duwe01/py_HO/helaconia/cluster/pythoncode/helaconia_run_interface.py", line 148, in __init__
+    self.run("HO",{},cwd=cwd)
+  File "/local0/p_duwe01/py_HO/helaconia/cluster/pythoncode/helaconia_run_interface.py", line 1389, in run
+    self.run_all(job_dict, [['2','B','%d' %i ]],status,split_jobs = split,cwd=cwd)
+  File "/local0/p_duwe01/py_HO/helaconia/cluster/pythoncode/helaconia_run_interface.py", line 1443, in run_all
+    self.wait_for_complete(run_type,cwd = cwd)
+  File "/local0/p_duwe01/py_HO/helaconia/cluster/pythoncode/helaconia_run_interface.py", line 1413, in wait_for_complete
+    self.cluster.wait(cwd, update_status)
+  File "/local0/p_duwe01/py_HO/helaconia/cluster/pythoncode/cluster.py", line 561, in wait
+    raise Exception, msg
+Exception: program /local0/p_duwe01/py_HO/helaconia/hessian/PROC_HO_1/P0_addon_fit_pp_psiX_CrystalBall/Helac-Onia launch ends with non zero status: 2. Stop all computation
+Fail to write options with error do_display() takes exactly 2 arguments (3 given)

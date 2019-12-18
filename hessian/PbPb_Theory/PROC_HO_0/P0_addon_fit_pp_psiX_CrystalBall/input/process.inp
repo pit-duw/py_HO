@@ -1,0 +1,14 @@
+4
+35 35 11 -11
+# nhad
+# iflh(1) iflh(2) iflh(3) ...iflh(nhad)
+# Flavour of particles in SM :
+# nue=1 e=2 u=3 d=4 numu=5 mu=6 c=7 s=8 nutau=9 tau=10 t=11 b=12
+# A=31 Z=32 W+=33 W-=34 g=35 H=41 G0=42 G+=43 G-=44 Jet=100
+# all antifermions are corresponding negative integers
+# Jets are only allowed in the summation mode
+# etac(1S01)=441001, etac(1S08)=441008, psi(3S11)=443011
+# psi(3S18)=443018,hc(1P11)=441111,hc(1P18)=441118
+# chicJ(3PJ1)=4431J1,chicJ(3PJ8)=4431J8
+# similar to Bottomnium but with 44 replaced by 55
+# Bc+(3S11)=453011,Bc+(3S18)=453018,Bc-(3S11)=-453011,..

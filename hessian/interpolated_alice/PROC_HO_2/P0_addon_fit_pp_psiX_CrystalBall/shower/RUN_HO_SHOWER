@@ -1,0 +1,7 @@
+#!/bin/bash
+
+source HELACOnia_shower.inp
+
+source $ShowerDirectory/HELACOnia_$ShowerMode.sh
+
+runShower

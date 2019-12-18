@@ -1,0 +1,14 @@
+# DECAY CHANNELS
+# The syntax is
+# Decay Chain I
+# k BR
+# M D1 D2 ... Dk
+# whre I = 1,...,99, M is the decaying resonance, D1,...Dk are the decay products, BR is the branching ratio
+# Example of syntax:
+# cc~(3S11) > e+ e- or mu+ mu- with BR = 0.06 each
+# Decay Chain 1
+# 2 0.06d0
+# 443011 -2 2
+# Decay Chain 2
+# 2 0.06d0
+# 443011 -6 6

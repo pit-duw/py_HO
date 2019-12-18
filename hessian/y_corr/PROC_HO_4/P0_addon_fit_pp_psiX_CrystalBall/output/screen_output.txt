@@ -1,0 +1,3684 @@
+==== LHAPDF6 USING DEFAULT-TYPE LHAGLUE INTERFACE ====
+LHAPDF 6.2.0 loading /local0/p_duwe01/LHAPDF/share/LHAPDF/nCTEQ15_1_1/nCTEQ15_1_1_0000.dat
+nCTEQ15_1_1 PDF set, member #0, version 1; LHAPDF ID = 100000
+                      THE BEGINNING OF HELAC-Onia
+     AddOn Process: 
+     Fit Crystal Ball Function for p p > psi + X 
+ =======================================================================
+ =======================================================================
+  
+ Number of data to be fitted:          34
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  2009.7993    
+ SQURE DEV  =  2.686    
+ ACCUMULATED RESULTS:   INTEGRAL =  2009.7993    
+ DEV  =  2.686    
+ CHI**2 PER IT'N = -.1164E-05
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   39.26         .160000   37.35         .260000   41.79    
+ .360000   38.73         .460000   39.58         .560000   36.94    
+ .660000   36.66         .760000   39.14         .860000   44.14    
+ .960000   38.40    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.5273E-02     .160000  0.5777         .260000   8.786    
+ .360000   55.02         .460000   134.5         .560000   141.5    
+ .660000   55.50         .760000   9.021         .860000  0.5945    
+ .960000  0.5637E-02
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   10.23         .160000   23.63         .260000   32.32    
+ .360000   34.33         .460000   43.08         .560000   48.83    
+ .660000   42.99         .760000   53.94         .860000   48.11    
+ .960000   58.32    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  2738.4258    
+ SQURE DEV  =  3.690    
+ ACCUMULATED RESULTS:   INTEGRAL =  2738.4258    
+ DEV  =  3.690    
+ CHI**2 PER IT'N = 0.1164E-05
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   52.57         .160000   55.96         .260000   56.74    
+ .360000   59.89         .460000   50.79         .560000   57.55    
+ .660000   61.66         .760000   57.65         .860000   60.64    
+ .960000   56.65    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.8748E-02     .160000  0.7608         .260000   11.07    
+ .360000   66.42         .460000   196.2         .560000   187.5    
+ .660000   63.95         .760000   10.71         .860000  0.8287    
+ .960000  0.8547E-02
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   60.12         .160000   61.89         .260000   61.97    
+ .360000   56.21         .460000   59.69         .560000   55.20    
+ .660000   56.28         .760000   52.55         .860000   47.52    
+ .960000   52.43    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  2237.0479    
+ SQURE DEV  =  3.048    
+ ACCUMULATED RESULTS:   INTEGRAL =  2237.0479    
+ DEV  =  3.048    
+ CHI**2 PER IT'N = 0.1164E-05
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   49.75         .160000   46.84         .260000   42.52    
+ .360000   42.84         .460000   48.33         .560000   45.26    
+ .660000   48.11         .760000   38.96         .860000   42.94    
+ .960000   47.17    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.7344E-02     .160000  0.6225         .260000   9.230    
+ .360000   54.30         .460000   153.3         .560000   153.7    
+ .660000   56.42         .760000   9.211         .860000  0.7158    
+ .960000  0.6991E-02
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   48.66         .160000   46.72         .260000   51.55    
+ .360000   48.35         .460000   44.07         .560000   44.71    
+ .660000   43.40         .760000   41.04         .860000   36.92    
+ .960000   38.58    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  1472.8689    
+ SQURE DEV  =  2.000    
+ ACCUMULATED RESULTS:   INTEGRAL =  1472.8689    
+ DEV  =  2.000    
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   25.62         .160000   28.88         .260000   31.10    
+ .360000   27.92         .460000   27.88         .560000   30.23    
+ .660000   32.96         .760000   32.00         .860000   27.26    
+ .960000   32.25    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.5279E-02     .160000  0.4221         .260000   6.003    
+ .360000   38.05         .460000   96.57         .560000   101.8    
+ .660000   38.22         .760000   6.188         .860000  0.4324    
+ .960000  0.4792E-02
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   38.79         .160000   32.32         .260000   29.68    
+ .360000   35.32         .460000   25.39         .560000   27.25    
+ .660000   25.73         .760000   26.32         .860000   24.12    
+ .960000   22.01    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  820.33745    
+ SQURE DEV  =  1.089    
+ ACCUMULATED RESULTS:   INTEGRAL =  820.33745    
+ DEV  =  1.089    
+ CHI**2 PER IT'N = -.1164E-05
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   17.14         .160000   19.24         .260000   16.62    
+ .360000   17.43         .460000   16.17         .560000   15.84    
+ .660000   16.09         .760000   16.76         .860000   16.99    
+ .960000   14.66    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.2768E-02     .160000  0.2505         .260000   3.711    
+ .360000   21.32         .460000   61.01         .560000   55.03    
+ .660000   21.82         .760000   3.518         .860000  0.2467    
+ .960000  0.2828E-02
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   20.10         .160000   21.78         .260000   18.34    
+ .360000   19.72         .460000   15.25         .560000   16.28    
+ .660000   13.10         .760000   13.12         .860000   13.11    
+ .960000   12.36    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  615.58390    
+ SQURE DEV  = 0.8724    
+ ACCUMULATED RESULTS:   INTEGRAL =  615.58390    
+ DEV  = 0.8724    
+ CHI**2 PER IT'N = 0.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   9.932         .160000   11.02         .260000   11.46    
+ .360000   13.08         .460000   11.70         .560000   10.85    
+ .660000   11.34         .760000   11.96         .860000   11.44    
+ .960000   11.53    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.2110E-02     .160000  0.2102         .260000   2.808    
+ .360000   16.69         .460000   40.16         .560000   45.26    
+ .660000   15.14         .760000   2.680         .860000  0.2112    
+ .960000  0.2296E-02
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   21.84         .160000   20.12         .260000   16.24    
+ .360000   13.92         .460000   12.40         .560000   10.06    
+ .660000   9.045         .760000   7.159         .860000   7.765    
+ .960000   6.498    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  208.86379    
+ SQURE DEV  = 0.2972    
+ ACCUMULATED RESULTS:   INTEGRAL =  208.86379    
+ DEV  = 0.2972    
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   4.472         .160000   3.988         .260000   3.856    
+ .360000   4.345         .460000   4.597         .560000   4.027    
+ .660000   4.606         .760000   4.257         .860000   3.663    
+ .960000   4.687    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.6987E-03     .160000  0.7526E-01     .260000   1.006    
+ .360000   5.606         .460000   14.45         .560000   14.57    
+ .660000   5.543         .760000   1.024         .860000  0.7510E-01
+ .960000  0.8374E-03
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   9.276         .160000   6.109         .260000   4.947    
+ .360000   5.158         .460000   4.064         .560000   3.587    
+ .660000   2.742         .760000   2.426         .860000   2.247    
+ .960000   1.653    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  4142.2981    
+ SQURE DEV  =  5.548    
+ ACCUMULATED RESULTS:   INTEGRAL =  4142.2981    
+ DEV  =  5.548    
+ CHI**2 PER IT'N = 0.1164E-05
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   84.76         .160000   88.42         .260000   81.06    
+ .360000   83.69         .460000   74.05         .560000   85.08    
+ .660000   87.50         .760000   78.79         .860000   76.30    
+ .960000   76.07    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1422E-01     .160000   1.124         .260000   16.92    
+ .360000   99.52         .460000   278.4         .560000   299.9    
+ .660000   105.9         .760000   16.01         .860000   1.185    
+ .960000  0.1384E-01
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   89.92         .160000   92.72         .260000   98.60    
+ .360000   90.75         .460000   88.11         .560000   82.65    
+ .660000   83.64         .760000   83.40         .860000   66.02    
+ .960000   69.35    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  2296.3716    
+ SQURE DEV  =  3.232    
+ ACCUMULATED RESULTS:   INTEGRAL =  2296.3716    
+ DEV  =  3.232    
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   48.95         .160000   41.19         .260000   49.43    
+ .360000   39.47         .460000   51.09         .560000   45.38    
+ .660000   47.00         .760000   45.03         .860000   44.05    
+ .960000   45.01    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.7825E-02     .160000  0.7180         .260000   9.837    
+ .360000   57.45         .460000   164.6         .560000   150.8    
+ .660000   58.76         .760000   10.22         .860000  0.7122    
+ .960000  0.8767E-02
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   77.02         .160000   68.47         .260000   62.59    
+ .360000   49.23         .460000   47.30         .560000   42.46    
+ .660000   35.67         .760000   33.60         .860000   29.64    
+ .960000   26.95    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  826.20104    
+ SQURE DEV  =  1.501    
+ ACCUMULATED RESULTS:   INTEGRAL =  826.20104    
+ DEV  =  1.501    
+ CHI**2 PER IT'N = -.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   15.26         .160000   15.76         .260000   15.05    
+ .360000   17.17         .460000   15.35         .560000   15.48    
+ .660000   15.46         .760000   17.69         .860000   16.08    
+ .960000   14.25    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.2943E-02     .160000  0.3058         .260000   3.737    
+ .360000   24.57         .460000   56.93         .560000   55.72    
+ .660000   22.50         .760000   3.741         .860000  0.2667    
+ .960000  0.2941E-02
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   42.22         .160000   32.65         .260000   26.04    
+ .360000   16.85         .460000   12.21         .560000   9.376    
+ .660000   7.247         .760000   5.298         .860000   4.109    
+ .960000   2.984    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  1780.6852    
+ SQURE DEV  =  2.755    
+ ACCUMULATED RESULTS:   INTEGRAL =  1780.6852    
+ DEV  =  2.755    
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   30.38         .160000   28.58         .260000   33.23    
+ .360000   30.39         .460000   36.39         .560000   38.87    
+ .660000   35.68         .760000   37.99         .860000   42.61    
+ .960000   34.20    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1743         .160000   15.10         .260000   101.7    
+ .360000   138.7         .460000   75.25         .560000   15.15    
+ .660000   1.694         .760000  0.1540         .860000  0.8865E-02
+ .960000  0.6691E-04
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   11.13         .160000   20.46         .260000   30.20    
+ .360000   34.58         .460000   38.66         .560000   35.97    
+ .660000   39.42         .760000   46.74         .860000   50.20    
+ .960000   47.84    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  2266.9959    
+ SQURE DEV  =  3.679    
+ ACCUMULATED RESULTS:   INTEGRAL =  2266.9959    
+ DEV  =  3.679    
+ CHI**2 PER IT'N = -.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   34.96         .160000   43.95         .260000   40.33    
+ .360000   42.30         .460000   46.60         .560000   50.27    
+ .660000   46.02         .760000   43.60         .860000   60.12    
+ .960000   52.76    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.2730         .160000   22.90         .260000   155.0    
+ .360000   188.6         .460000   63.58         .560000   11.51    
+ .660000   1.662         .760000  0.1735         .860000  0.1084E-01
+ .960000  0.1036E-03
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   46.26         .160000   49.57         .260000   46.45    
+ .360000   43.41         .460000   53.31         .560000   43.63    
+ .660000   46.96         .760000   42.40         .860000   40.28    
+ .960000   36.13    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  1730.4148    
+ SQURE DEV  =  2.928    
+ ACCUMULATED RESULTS:   INTEGRAL =  1730.4148    
+ DEV  =  2.928    
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   29.77         .160000   28.72         .260000   27.97    
+ .360000   33.56         .460000   34.27         .560000   41.68    
+ .660000   33.16         .760000   35.83         .860000   42.97    
+ .960000   43.60    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.2574         .160000   19.67         .260000   121.2    
+ .360000   142.8         .460000   46.17         .560000   8.048    
+ .660000   1.180         .760000  0.1458         .860000  0.8671E-02
+ .960000  0.8688E-04
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   35.29         .160000   39.33         .260000   36.73    
+ .360000   39.39         .460000   29.88         .560000   34.56    
+ .660000   32.09         .760000   30.61         .860000   31.89    
+ .960000   26.36    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  1071.2934    
+ SQURE DEV  =  1.813    
+ ACCUMULATED RESULTS:   INTEGRAL =  1071.2934    
+ DEV  =  1.813    
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   16.42         .160000   17.78         .260000   19.64    
+ .360000   19.63         .460000   20.99         .560000   23.84    
+ .660000   23.25         .760000   26.04         .860000   27.96    
+ .960000   29.18    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1631         .160000   12.15         .260000   75.48    
+ .360000   90.95         .460000   28.86         .560000   5.431    
+ .660000  0.7656         .760000  0.8997E-01     .860000  0.5451E-02
+ .960000  0.5712E-04
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   25.61         .160000   29.28         .260000   25.30    
+ .360000   23.46         .460000   19.53         .560000   22.11    
+ .660000   20.64         .760000   17.53         .860000   18.46    
+ .960000   15.66    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  558.93572    
+ SQURE DEV  = 0.9436    
+ ACCUMULATED RESULTS:   INTEGRAL =  558.93572    
+ DEV  = 0.9436    
+ CHI**2 PER IT'N = 0.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   8.322         .160000   9.587         .260000   10.02    
+ .360000   9.547         .460000   13.43         .560000   10.86    
+ .660000   12.79         .760000   13.60         .860000   15.07    
+ .960000   13.29    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1075         .160000   7.254         .260000   42.34    
+ .360000   43.15         .460000   15.65         .560000   2.688    
+ .660000  0.4371         .760000  0.4854E-01     .860000  0.3020E-02
+ .960000  0.2846E-04
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   15.97         .160000   15.78         .260000   13.64    
+ .360000   12.50         .460000   13.23         .560000   9.552    
+ .660000   8.358         .760000   8.329         .860000   9.300    
+ .960000   7.604    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  265.01407    
+ SQURE DEV  = 0.4401    
+ ACCUMULATED RESULTS:   INTEGRAL =  265.01407    
+ DEV  = 0.4401    
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   3.555         .160000   3.843         .260000   4.085    
+ .360000   4.548         .460000   5.850         .560000   6.004    
+ .660000   5.753         .760000   6.560         .860000   6.409    
+ .960000   7.517    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.5641E-01     .160000   3.856         .260000   19.75    
+ .360000   21.26         .460000   7.012         .560000   1.263    
+ .660000  0.1870         .760000  0.2237E-01     .860000  0.1323E-02
+ .960000  0.1315E-04
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   7.507         .160000   5.415         .260000   6.256    
+ .360000   5.254         .460000   4.926         .560000   4.814    
+ .660000   4.487         .760000   4.503         .860000   3.558    
+ .960000   3.291    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  193.44326    
+ SQURE DEV  = 0.3278    
+ ACCUMULATED RESULTS:   INTEGRAL =  193.44326    
+ DEV  = 0.3278    
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   2.498         .160000   2.668         .260000   2.918    
+ .360000   3.452         .460000   3.266         .560000   4.381    
+ .660000   5.109         .760000   4.737         .860000   5.453    
+ .960000   4.953    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.4895E-01     .160000   2.756         .260000   15.22    
+ .360000   15.26         .460000   4.894         .560000  0.9307    
+ .660000  0.1405         .760000  0.1900E-01     .860000  0.1031E-02
+ .960000  0.9168E-05
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   6.518         .160000   6.275         .260000   5.270    
+ .360000   3.958         .460000   4.113         .560000   3.285    
+ .660000   2.891         .760000   2.512         .860000   1.975    
+ .960000   2.194    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  54.389481    
+ SQURE DEV  = 0.9184E-01
+ ACCUMULATED RESULTS:   INTEGRAL =  54.389481    
+ DEV  = 0.9184E-01
+ CHI**2 PER IT'N = 0.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.6429         .160000  0.6762         .260000  0.7682    
+ .360000  0.8453         .460000  0.9266         .560000   1.144    
+ .660000   1.049         .760000   1.452         .860000   1.468    
+ .960000   1.386    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1481E-01     .160000  0.9287         .260000   3.974    
+ .360000   4.152         .460000   1.405         .560000  0.2686    
+ .660000  0.4661E-01     .760000  0.4577E-02     .860000  0.2880E-03
+ .960000  0.2806E-05
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   1.602         .160000   1.536         .260000   1.392    
+ .360000   1.168         .460000   1.067         .560000  0.7869    
+ .660000  0.8508         .760000  0.8783         .860000  0.8000    
+ .960000  0.5600    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  18.161083    
+ SQURE DEV  = 0.2973E-01
+ ACCUMULATED RESULTS:   INTEGRAL =  18.161083    
+ DEV  = 0.2973E-01
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.2010         .160000  0.2196         .260000  0.2793    
+ .360000  0.2733         .460000  0.3045         .560000  0.3800    
+ .660000  0.3917         .760000  0.4215         .860000  0.4412    
+ .960000  0.4807    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.6263E-02     .160000  0.3613         .260000   1.478    
+ .360000   1.336         .460000  0.5221         .560000  0.8829E-01
+ .660000  0.1477E-01     .760000  0.1566E-02     .860000  0.9516E-04
+ .960000  0.7331E-06
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.4948         .160000  0.5353         .260000  0.4573    
+ .360000  0.3800         .460000  0.3977         .560000  0.3237    
+ .660000  0.3123         .760000  0.2745         .860000  0.2364    
+ .960000  0.2111    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  6.9689733    
+ SQURE DEV  = 0.1145E-01
+ ACCUMULATED RESULTS:   INTEGRAL =  6.9689733    
+ DEV  = 0.1145E-01
+ CHI**2 PER IT'N = 0.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.6517E-01     .160000  0.9014E-01     .260000  0.9783E-01
+ .360000  0.1251         .460000  0.1194         .560000  0.1402    
+ .660000  0.1812         .760000  0.1971         .860000  0.2085    
+ .960000  0.1870    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.2284E-02     .160000  0.1333         .260000  0.5840    
+ .360000  0.5041         .460000  0.1780         .560000  0.3885E-01
+ .660000  0.5673E-02     .760000  0.7082E-03     .860000  0.3899E-04
+ .960000  0.4040E-06
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1950         .160000  0.2011         .260000  0.1792    
+ .360000  0.1618         .460000  0.1392         .560000  0.1414    
+ .660000  0.1213         .760000  0.1106         .860000  0.1041    
+ .960000  0.7287E-01
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  2.9543169    
+ SQURE DEV  = 0.4770E-02
+ ACCUMULATED RESULTS:   INTEGRAL =  2.9543169    
+ DEV  = 0.4770E-02
+ CHI**2 PER IT'N = 0.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.2867E-01     .160000  0.2869E-01     .260000  0.4310E-01
+ .360000  0.4226E-01     .460000  0.5418E-01     .560000  0.5976E-01
+ .660000  0.7356E-01     .760000  0.7738E-01     .860000  0.8391E-01
+ .960000  0.9806E-01
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1123E-02     .160000  0.6401E-01     .260000  0.2418    
+ .360000  0.1922         .460000  0.6664E-01     .560000  0.1466E-01
+ .660000  0.2484E-02     .760000  0.2974E-03     .860000  0.1813E-04
+ .960000  0.1463E-06
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.9314E-01     .160000  0.7942E-01     .260000  0.7561E-01
+ .360000  0.6813E-01     .460000  0.5783E-01     .560000  0.5127E-01
+ .660000  0.4732E-01     .760000  0.4972E-01     .860000  0.4400E-01
+ .960000  0.4481E-01
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  2.0514651    
+ SQURE DEV  = 0.3387E-02
+ ACCUMULATED RESULTS:   INTEGRAL =  2.0514651    
+ DEV  = 0.3387E-02
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1916E-01     .160000  0.2308E-01     .260000  0.2381E-01
+ .360000  0.3454E-01     .460000  0.3213E-01     .560000  0.3791E-01
+ .660000  0.5161E-01     .760000  0.4825E-01     .860000  0.6432E-01
+ .960000  0.6765E-01
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.8173E-03     .160000  0.4794E-01     .260000  0.1703    
+ .360000  0.1382         .460000  0.5142E-01     .560000  0.1034E-01
+ .660000  0.1839E-02     .760000  0.2039E-03     .860000  0.1310E-04
+ .960000  0.1002E-06
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.6867E-01     .160000  0.5940E-01     .260000  0.6461E-01
+ .360000  0.4875E-01     .460000  0.4126E-01     .560000  0.3368E-01
+ .660000  0.2752E-01     .760000  0.2786E-01     .860000  0.2325E-01
+ .960000  0.1976E-01
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  1964.4764    
+ SQURE DEV  =  3.012    
+ ACCUMULATED RESULTS:   INTEGRAL =  1964.4764    
+ DEV  =  3.012    
+ CHI**2 PER IT'N = -.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   42.68         .160000   44.36         .260000   37.94    
+ .360000   41.93         .460000   39.96         .560000   35.60    
+ .660000   41.95         .760000   35.64         .860000   36.51    
+ .960000   38.05    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.2236E-03     .160000  0.2716E-01     .260000  0.4773    
+ .360000   4.754         .460000   38.28         .560000   117.7    
+ .660000   156.1         .760000   58.77         .860000   6.118    
+ .960000  0.5844E-01
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   11.06         .160000   21.77         .260000   30.65    
+ .360000   38.08         .460000   42.30         .560000   43.36    
+ .660000   45.77         .760000   45.61         .860000   50.49    
+ .960000   54.55    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  2630.3267    
+ SQURE DEV  =  3.997    
+ ACCUMULATED RESULTS:   INTEGRAL =  2630.3267    
+ DEV  =  3.997    
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   55.03         .160000   55.16         .260000   51.78    
+ .360000   56.30         .460000   52.36         .560000   54.73    
+ .660000   47.33         .760000   48.95         .860000   47.26    
+ .960000   54.94    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.3359E-03     .160000  0.3316E-01     .260000  0.5209    
+ .360000   5.250         .460000   34.12         .560000   154.6    
+ .660000   235.7         .760000   89.27         .860000   8.403    
+ .960000  0.9730E-01
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   53.38         .160000   58.87         .260000   58.30    
+ .360000   43.24         .460000   57.21         .560000   56.84    
+ .660000   56.45         .760000   55.49         .860000   45.99    
+ .960000   56.93    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  2107.3940    
+ SQURE DEV  =  3.286    
+ ACCUMULATED RESULTS:   INTEGRAL =  2107.3940    
+ DEV  =  3.286    
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   42.00         .160000   51.38         .260000   47.62    
+ .360000   51.80         .460000   40.40         .560000   36.93    
+ .660000   39.36         .760000   42.70         .860000   37.14    
+ .960000   38.41    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.3012E-03     .160000  0.2944E-01     .260000  0.4608    
+ .360000   3.902         .460000   26.43         .560000   102.5    
+ .660000   182.0         .760000   73.68         .860000   8.336    
+ .960000  0.8786E-01
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   43.73         .160000   41.99         .260000   47.18    
+ .360000   41.34         .460000   46.16         .560000   39.83    
+ .660000   40.74         .760000   33.12         .860000   37.64    
+ .960000   33.53    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  1362.7179    
+ SQURE DEV  =  2.112    
+ ACCUMULATED RESULTS:   INTEGRAL =  1362.7179    
+ DEV  =  2.112    
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   28.06         .160000   29.35         .260000   30.40    
+ .360000   27.65         .460000   29.57         .560000   29.35    
+ .660000   25.73         .760000   23.80         .860000   22.86    
+ .960000   25.18    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.2017E-03     .160000  0.1925E-01     .260000  0.3191    
+ .360000   2.559         .460000   16.93         .560000   71.64    
+ .660000   124.3         .760000   54.89         .860000   5.354    
+ .960000  0.6057E-01
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   34.36         .160000   32.14         .260000   29.30    
+ .360000   34.85         .460000   27.28         .560000   25.37    
+ .660000   26.36         .760000   21.15         .860000   22.94    
+ .960000   19.02    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  749.59884    
+ SQURE DEV  =  1.178    
+ ACCUMULATED RESULTS:   INTEGRAL =  749.59884    
+ DEV  =  1.178    
+ CHI**2 PER IT'N = -.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   15.83         .160000   18.53         .260000   15.13    
+ .360000   14.82         .460000   14.60         .560000   15.21    
+ .660000   13.50         .760000   14.00         .860000   11.87    
+ .960000   15.31    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1021E-03     .160000  0.1093E-01     .260000  0.1708    
+ .360000   1.433         .460000   9.780         .560000   35.20    
+ .660000   65.90         .760000   29.55         .860000   3.402    
+ .960000  0.3956E-01
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   22.09         .160000   19.85         .260000   18.26    
+ .360000   15.51         .460000   14.93         .560000   14.54    
+ .660000   13.72         .760000   11.73         .860000   10.99    
+ .960000   11.63    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  370.13251    
+ SQURE DEV  = 0.5728    
+ ACCUMULATED RESULTS:   INTEGRAL =  370.13251    
+ DEV  = 0.5728    
+ CHI**2 PER IT'N = 0.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   8.780         .160000   8.762         .260000   8.249    
+ .360000   7.900         .460000   8.128         .560000   7.155    
+ .660000   6.222         .760000   7.329         .860000   6.338    
+ .960000   5.670    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.5210E-04     .160000  0.5032E-02     .260000  0.8621E-01
+ .360000  0.7166         .460000   4.475         .560000   18.55    
+ .660000   33.09         .760000   15.04         .860000   1.656    
+ .960000  0.2128E-01
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   10.27         .160000   9.180         .260000   8.972    
+ .360000   8.304         .460000   8.068         .560000   7.227    
+ .660000   5.757         .760000   7.039         .860000   6.047    
+ .960000   4.726    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  283.98750    
+ SQURE DEV  = 0.4541    
+ ACCUMULATED RESULTS:   INTEGRAL =  283.98750    
+ DEV  = 0.4541    
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   5.989         .160000   5.383         .260000   6.567    
+ .360000   6.835         .460000   6.338         .560000   6.057    
+ .660000   5.567         .760000   5.246         .860000   4.782    
+ .960000   4.588    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.3316E-04     .160000  0.4473E-02     .260000  0.7004E-01
+ .360000  0.6059         .460000   3.346         .560000   13.54    
+ .660000   24.36         .760000   11.75         .860000   1.530    
+ .960000  0.1574E-01
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   9.897         .160000   7.402         .260000   7.220    
+ .360000   5.897         .460000   4.800         .560000   5.153    
+ .660000   4.349         .760000   3.922         .860000   3.556    
+ .960000   2.773    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  85.251067    
+ SQURE DEV  = 0.1347    
+ ACCUMULATED RESULTS:   INTEGRAL =  85.251067    
+ DEV  = 0.1347    
+ CHI**2 PER IT'N = 0.1164E-05
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   2.056         .160000   2.139         .260000   1.813    
+ .360000   1.869         .460000   1.792         .560000   1.772    
+ .660000   1.623         .760000   1.595         .860000   1.402    
+ .960000   1.244    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1042E-04     .160000  0.1160E-02     .260000  0.2385E-01
+ .360000  0.1826         .460000   1.024         .560000   4.367    
+ .660000   7.251         .760000   3.887         .860000  0.4347    
+ .960000  0.5663E-02
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   2.919         .160000   2.555         .260000   1.857    
+ .360000   1.839         .460000   1.704         .560000   1.565    
+ .660000   1.288         .760000   1.322         .860000   1.027    
+ .960000   1.033    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  30.191842    
+ SQURE DEV  = 0.4553E-01
+ ACCUMULATED RESULTS:   INTEGRAL =  30.191842    
+ DEV  = 0.4553E-01
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.6911         .160000  0.7389         .260000  0.6731    
+ .360000  0.5670         .460000  0.6027         .560000  0.5730    
+ .660000  0.6032         .760000  0.4649         .860000  0.4349    
+ .960000  0.4478    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.3928E-05     .160000  0.4766E-03     .260000  0.7835E-02
+ .360000  0.6104E-01     .460000  0.3740         .560000   1.431    
+ .660000   2.600         .760000   1.409         .860000  0.1724    
+ .960000  0.2071E-02
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.8130         .160000  0.8492         .260000  0.7474    
+ .360000  0.7334         .460000  0.5554         .560000  0.5565    
+ .660000  0.4525         .760000  0.4043         .860000  0.3943    
+ .960000  0.3323    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  12.165206    
+ SQURE DEV  = 0.1836E-01
+ ACCUMULATED RESULTS:   INTEGRAL =  12.165206    
+ DEV  = 0.1836E-01
+ CHI**2 PER IT'N = -.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.3465         .160000  0.3087         .260000  0.3003    
+ .360000  0.2788         .460000  0.2480         .560000  0.2326    
+ .660000  0.2126         .760000  0.1996         .860000  0.1785    
+ .960000  0.1678    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1754E-05     .160000  0.1827E-03     .260000  0.3355E-02
+ .360000  0.2647E-01     .460000  0.1540         .560000  0.5673    
+ .660000  0.9838         .760000  0.5890         .860000  0.7653E-01
+ .960000  0.8686E-03
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.3745         .160000  0.3321         .260000  0.3026    
+ .360000  0.2389         .460000  0.2587         .560000  0.2151    
+ .660000  0.2139         .760000  0.1850         .860000  0.1816    
+ .960000  0.1491    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  5.4207570    
+ SQURE DEV  = 0.7932E-02
+ ACCUMULATED RESULTS:   INTEGRAL =  5.4207570    
+ DEV  = 0.7932E-02
+ CHI**2 PER IT'N = -.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1540         .160000  0.1247         .260000  0.1124    
+ .360000  0.1200         .460000  0.1229         .560000  0.1060    
+ .660000  0.9320E-01     .760000  0.9606E-01     .860000  0.7358E-01
+ .960000  0.6618E-01
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.8305E-06     .160000  0.8634E-04     .260000  0.1502E-02
+ .360000  0.1155E-01     .460000  0.7024E-01     .560000  0.2446    
+ .660000  0.4471         .760000  0.2458         .860000  0.4010E-01
+ .960000  0.4623E-03
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1447         .160000  0.1429         .260000  0.1333    
+ .360000  0.1242         .460000  0.9713E-01     .560000  0.9904E-01
+ .660000  0.1101         .760000  0.8435E-01     .860000  0.9526E-01
+ .960000  0.7336E-01
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  3.9757758    
+ SQURE DEV  = 0.5911E-02
+ ACCUMULATED RESULTS:   INTEGRAL =  3.9757758    
+ DEV  = 0.5911E-02
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1105         .160000  0.1032         .260000  0.1010    
+ .360000  0.8060E-01     .460000  0.8107E-01     .560000  0.7275E-01
+ .660000  0.6623E-01     .760000  0.6316E-01     .860000  0.4807E-01
+ .960000  0.4352E-01
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.5997E-06     .160000  0.7317E-04     .260000  0.1160E-02
+ .360000  0.8483E-02     .460000  0.4702E-01     .560000  0.1722    
+ .660000  0.3259         .760000  0.1939         .860000  0.2854E-01
+ .960000  0.3762E-03
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1290         .160000  0.1306         .260000  0.1044    
+ .360000  0.9061E-01     .460000  0.7846E-01     .560000  0.6602E-01
+ .660000  0.6277E-01     .760000  0.5391E-01     .860000  0.5464E-01
+ .960000  0.3324E-01
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  2007.5645    
+ SQURE DEV  =  2.744    
+ ACCUMULATED RESULTS:   INTEGRAL =  2007.5645    
+ DEV  =  2.744    
+ CHI**2 PER IT'N = -.1164E-05
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   38.65         .160000   39.91         .260000   39.83    
+ .360000   32.02         .460000   46.78         .560000   36.43    
+ .660000   38.28         .760000   39.04         .860000   42.90    
+ .960000   36.19    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.5985E-02     .160000  0.5544         .260000   8.724    
+ .360000   56.74         .460000   137.4         .560000   142.5    
+ .660000   53.27         .760000   8.851         .860000  0.6162    
+ .960000  0.4942E-02
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   11.33         .160000   22.55         .260000   34.01    
+ .360000   38.34         .460000   45.37         .560000   48.44    
+ .660000   49.67         .760000   56.71         .860000   48.39    
+ .960000   51.11    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  2740.7909    
+ SQURE DEV  =  3.651    
+ ACCUMULATED RESULTS:   INTEGRAL =  2740.7909    
+ DEV  =  3.651    
+ CHI**2 PER IT'N = 0.1164E-05
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   64.88         .160000   54.10         .260000   51.61    
+ .360000   57.39         .460000   53.88         .560000   50.60    
+ .660000   60.08         .760000   54.68         .860000   55.12    
+ .960000   47.43    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.8464E-02     .160000  0.7317         .260000   11.21    
+ .360000   69.08         .460000   203.1         .560000   195.0    
+ .660000   70.25         .760000   10.76         .860000  0.6832    
+ .960000  0.9093E-02
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   52.13         .160000   51.77         .260000   61.99    
+ .360000   57.27         .460000   50.95         .560000   54.04    
+ .660000   51.55         .760000   53.78         .860000   44.72    
+ .960000   48.36    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  2228.0041    
+ SQURE DEV  =  3.016    
+ ACCUMULATED RESULTS:   INTEGRAL =  2228.0041    
+ DEV  =  3.016    
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   46.97         .160000   44.83         .260000   40.18    
+ .360000   49.61         .460000   43.34         .560000   44.85    
+ .660000   41.77         .760000   46.91         .860000   45.28    
+ .960000   46.70    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.7892E-02     .160000  0.6109         .260000   9.109    
+ .360000   53.59         .460000   152.1         .560000   152.7    
+ .660000   60.50         .760000   9.267         .860000  0.6379    
+ .960000  0.7400E-02
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   54.34         .160000   51.74         .260000   48.35    
+ .360000   46.90         .460000   47.53         .560000   42.06    
+ .660000   44.45         .760000   44.58         .860000   38.11    
+ .960000   32.78    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  1472.1560    
+ SQURE DEV  =  1.990    
+ ACCUMULATED RESULTS:   INTEGRAL =  1472.1560    
+ DEV  =  1.990    
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   26.87         .160000   26.51         .260000   30.60    
+ .360000   24.52         .460000   30.58         .560000   32.29    
+ .660000   26.79         .760000   31.80         .860000   29.50    
+ .960000   32.03    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.4975E-02     .160000  0.4134         .260000   6.446    
+ .360000   38.23         .460000   105.7         .560000   101.7    
+ .660000   36.79         .760000   6.659         .860000  0.4108    
+ .960000  0.5021E-02
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   33.99         .160000   33.07         .260000   33.05    
+ .360000   28.70         .460000   31.71         .560000   26.93    
+ .660000   27.72         .760000   24.66         .860000   27.55    
+ .960000   19.94    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  817.33263    
+ SQURE DEV  =  1.088    
+ ACCUMULATED RESULTS:   INTEGRAL =  817.33263    
+ DEV  =  1.088    
+ CHI**2 PER IT'N = 0.1164E-05
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   14.39         .160000   14.54         .260000   17.50    
+ .360000   14.69         .460000   16.37         .560000   16.09    
+ .660000   15.60         .760000   18.55         .860000   18.09    
+ .960000   16.97    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.2792E-02     .160000  0.2542         .260000   3.489    
+ .360000   22.68         .460000   55.94         .560000   60.74    
+ .660000   21.14         .760000   3.549         .860000  0.2715    
+ .960000  0.2835E-02
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   23.34         .160000   21.90         .260000   18.90    
+ .360000   17.80         .460000   18.19         .560000   16.51    
+ .660000   16.25         .760000   13.14         .860000   11.63    
+ .960000   13.69    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  616.41306    
+ SQURE DEV  = 0.8535    
+ ACCUMULATED RESULTS:   INTEGRAL =  616.41306    
+ DEV  = 0.8535    
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   11.64         .160000   12.55         .260000   12.69    
+ .360000   10.95         .460000   12.18         .560000   12.56    
+ .660000   12.63         .760000   11.61         .860000   11.67    
+ .960000   11.77    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.2043E-02     .160000  0.2061         .260000   2.959    
+ .360000   17.81         .460000   42.80         .560000   43.93    
+ .660000   17.28         .760000   2.820         .860000  0.2024    
+ .960000  0.2289E-02
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   18.96         .160000   18.05         .260000   15.63    
+ .360000   13.67         .460000   11.07         .560000   10.39    
+ .660000   9.376         .760000   7.582         .860000   6.886    
+ .960000   6.464    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  208.97670    
+ SQURE DEV  = 0.2951    
+ ACCUMULATED RESULTS:   INTEGRAL =  208.97670    
+ DEV  = 0.2951    
+ CHI**2 PER IT'N = 0.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   3.863         .160000   4.843         .260000   4.145    
+ .360000   5.044         .460000   4.402         .560000   4.432    
+ .660000   3.877         .760000   3.804         .860000   3.741    
+ .960000   4.528    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.6972E-03     .160000  0.7013E-01     .260000   1.008    
+ .360000   5.421         .460000   14.00         .560000   13.57    
+ .660000   5.843         .760000   1.044         .860000  0.7503E-01
+ .960000  0.7966E-03
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   7.173         .160000   6.665         .260000   5.497    
+ .360000   4.999         .460000   4.055         .560000   3.609    
+ .660000   3.079         .760000   2.278         .860000   1.868    
+ .960000   1.996    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  4134.6769    
+ SQURE DEV  =  5.776    
+ ACCUMULATED RESULTS:   INTEGRAL =  4134.6769    
+ DEV  =  5.776    
+ CHI**2 PER IT'N = -.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   85.97         .160000   75.75         .260000   77.60    
+ .360000   83.10         .460000   75.45         .560000   75.08    
+ .660000   81.42         .760000   81.78         .860000   88.45    
+ .960000   81.94    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1347E-01     .160000   1.115         .260000   17.38    
+ .360000   105.1         .460000   291.3         .560000   288.8    
+ .660000   108.3         .760000   17.38         .860000   1.276    
+ .960000  0.1185E-01
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   93.24         .160000   103.4         .260000   92.89    
+ .360000   97.59         .460000   75.82         .560000   86.37    
+ .660000   78.88         .760000   75.20         .860000   65.96    
+ .960000   69.92    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  2294.9776    
+ SQURE DEV  =  3.210    
+ ACCUMULATED RESULTS:   INTEGRAL =  2294.9776    
+ DEV  =  3.210    
+ CHI**2 PER IT'N = -.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   41.81         .160000   44.53         .260000   51.44    
+ .360000   48.78         .460000   46.60         .560000   50.27    
+ .660000   44.87         .760000   45.99         .860000   45.13    
+ .960000   50.78    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.7243E-02     .160000  0.6908         .260000   9.894    
+ .360000   60.58         .460000   164.7         .560000   171.8    
+ .660000   63.55         .760000   9.566         .860000  0.7284    
+ .960000  0.7887E-02
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   72.49         .160000   71.70         .260000   57.62    
+ .360000   52.52         .460000   43.54         .560000   45.26    
+ .660000   37.12         .760000   30.01         .860000   29.65    
+ .960000   22.47    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  825.04907    
+ SQURE DEV  =  1.485    
+ ACCUMULATED RESULTS:   INTEGRAL =  825.04907    
+ DEV  =  1.485    
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   15.93         .160000   16.83         .260000   19.61    
+ .360000   14.83         .460000   15.67         .560000   15.25    
+ .660000   13.14         .760000   16.53         .860000   17.72    
+ .960000   15.52    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.3383E-02     .160000  0.2760         .260000   4.142    
+ .360000   23.93         .460000   58.29         .560000   57.00    
+ .660000   19.47         .760000   3.714         .860000  0.2826    
+ .960000  0.3048E-02
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   49.14         .160000   33.39         .260000   23.21    
+ .360000   16.93         .460000   13.10         .560000   9.873    
+ .660000   7.473         .760000   5.407         .860000   3.767    
+ .960000   3.510    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  1782.2445    
+ SQURE DEV  =  2.809    
+ ACCUMULATED RESULTS:   INTEGRAL =  1782.2445    
+ DEV  =  2.809    
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   38.43         .160000   41.27         .260000   32.80    
+ .360000   33.96         .460000   36.12         .560000   34.61    
+ .660000   32.86         .760000   34.83         .860000   40.23    
+ .960000   40.91    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1682         .160000   14.16         .260000   98.67    
+ .360000   154.7         .460000   74.48         .560000   13.80    
+ .660000   1.718         .760000  0.1456         .860000  0.9221E-02
+ .960000  0.8303E-04
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   9.946         .160000   20.94         .260000   30.75    
+ .360000   34.50         .460000   37.23         .560000   42.03    
+ .660000   43.69         .760000   42.31         .860000   48.02    
+ .960000   53.97    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  2281.5552    
+ SQURE DEV  =  3.740    
+ ACCUMULATED RESULTS:   INTEGRAL =  2281.5552    
+ DEV  =  3.740    
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   33.89         .160000   40.47         .260000   39.96    
+ .360000   47.20         .460000   47.92         .560000   45.95    
+ .660000   46.51         .760000   49.01         .860000   51.37    
+ .960000   55.79    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.2566         .160000   20.97         .260000   143.5    
+ .360000   203.9         .460000   70.85         .560000   11.48    
+ .660000   1.610         .760000  0.1708         .860000  0.1103E-01
+ .960000  0.1116E-03
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   43.53         .160000   50.17         .260000   46.80    
+ .360000   46.93         .460000   48.32         .560000   42.00    
+ .660000   42.90         .760000   42.36         .860000   33.55    
+ .960000   39.42    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  1727.4585    
+ SQURE DEV  =  2.918    
+ ACCUMULATED RESULTS:   INTEGRAL =  1727.4585    
+ DEV  =  2.918    
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   29.80         .160000   28.22         .260000   30.19    
+ .360000   29.33         .460000   37.99         .560000   42.53    
+ .660000   32.92         .760000   39.48         .860000   40.48    
+ .960000   37.66    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.2566         .160000   19.16         .260000   122.6    
+ .360000   151.9         .460000   46.85         .560000   8.022    
+ .660000   1.224         .760000  0.1311         .860000  0.8865E-02
+ .960000  0.8522E-04
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   31.63         .160000   42.47         .260000   38.74    
+ .360000   39.83         .460000   31.81         .560000   36.88    
+ .660000   31.18         .760000   31.92         .860000   31.84    
+ .960000   26.55    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  1070.5483    
+ SQURE DEV  =  1.839    
+ ACCUMULATED RESULTS:   INTEGRAL =  1070.5483    
+ DEV  =  1.839    
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   17.72         .160000   16.29         .260000   18.06    
+ .360000   15.82         .460000   19.76         .560000   23.91    
+ .660000   23.69         .760000   24.53         .860000   24.90    
+ .960000   25.72    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1796         .160000   13.04         .260000   79.27    
+ .360000   88.00         .460000   29.77         .560000   5.365    
+ .660000  0.7710         .760000  0.8872E-01     .860000  0.5246E-02
+ .960000  0.6247E-04
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   27.49         .160000   24.07         .260000   27.73    
+ .360000   24.99         .460000   20.69         .560000   19.88    
+ .660000   18.12         .760000   19.58         .860000   15.17    
+ .960000   15.75    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  559.05264    
+ SQURE DEV  = 0.9173    
+ ACCUMULATED RESULTS:   INTEGRAL =  559.05264    
+ DEV  = 0.9173    
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   8.090         .160000   8.154         .260000   9.790    
+ .360000   9.945         .460000   12.33         .560000   11.10    
+ .660000   12.58         .760000   14.92         .860000   15.57    
+ .960000   12.86    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1078         .160000   7.148         .260000   40.54    
+ .360000   42.93         .460000   15.29         .560000   2.647    
+ .660000  0.3845         .760000  0.4754E-01     .860000  0.3190E-02
+ .960000  0.2736E-04
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   15.78         .160000   13.54         .260000   15.63    
+ .360000   11.95         .460000   10.60         .560000   12.46    
+ .660000   8.841         .760000   7.989         .860000   8.214    
+ .960000   8.399    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  265.58282    
+ SQURE DEV  = 0.4327    
+ ACCUMULATED RESULTS:   INTEGRAL =  265.58282    
+ DEV  = 0.4327    
+ CHI**2 PER IT'N = 0.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   4.009         .160000   4.071         .260000   4.590    
+ .360000   4.297         .460000   5.060         .560000   5.278    
+ .660000   5.991         .760000   6.348         .860000   7.484    
+ .960000   6.880    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.5173E-01     .160000   3.952         .260000   20.08    
+ .360000   21.52         .460000   6.577         .560000   1.244    
+ .660000  0.1884         .760000  0.2122E-01     .860000  0.1281E-02
+ .960000  0.1439E-04
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   7.099         .160000   6.416         .260000   6.664    
+ .360000   6.081         .460000   5.047         .560000   5.217    
+ .660000   4.779         .760000   4.125         .860000   4.637    
+ .960000   3.913    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  193.92332    
+ SQURE DEV  = 0.3369    
+ ACCUMULATED RESULTS:   INTEGRAL =  193.92332    
+ DEV  = 0.3369    
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   2.441         .160000   2.973         .260000   2.965    
+ .360000   3.341         .460000   3.899         .560000   3.693    
+ .660000   4.641         .760000   5.216         .860000   4.923    
+ .960000   5.176    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.4475E-01     .160000   2.855         .260000   15.52    
+ .360000   14.65         .460000   4.494         .560000  0.9679    
+ .660000  0.1429         .760000  0.1777E-01     .860000  0.1011E-02
+ .960000  0.9807E-05
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   6.685         .160000   6.275         .260000   4.828    
+ .360000   3.738         .460000   3.721         .560000   3.263    
+ .660000   3.118         .760000   2.317         .860000   2.328    
+ .960000   1.908    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  54.353299    
+ SQURE DEV  = 0.9284E-01
+ ACCUMULATED RESULTS:   INTEGRAL =  54.353299    
+ DEV  = 0.9284E-01
+ CHI**2 PER IT'N = -.1164E-05
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.7585         .160000  0.7266         .260000  0.7959    
+ .360000  0.9895         .460000  0.9690         .560000   1.130    
+ .660000   1.175         .760000   1.336         .860000   1.336    
+ .960000   1.583    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1458E-01     .160000  0.9230         .260000   4.388    
+ .360000   3.728         .460000   1.488         .560000  0.2714    
+ .660000  0.4142E-01     .760000  0.4731E-02     .860000  0.3169E-03
+ .960000  0.2894E-05
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   1.767         .160000   1.627         .260000   1.534    
+ .360000   1.295         .460000   1.053         .560000   1.007    
+ .660000  0.7661         .760000  0.7709         .860000  0.7230    
+ .960000  0.6354    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  18.203749    
+ SQURE DEV  = 0.3034E-01
+ ACCUMULATED RESULTS:   INTEGRAL =  18.203749    
+ DEV  = 0.3034E-01
+ CHI**2 PER IT'N = -.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1843         .160000  0.2304         .260000  0.2762    
+ .360000  0.2959         .460000  0.3250         .560000  0.3874    
+ .660000  0.3605         .760000  0.4304         .860000  0.4593    
+ .960000  0.5860    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.5357E-02     .160000  0.3324         .260000   1.404    
+ .360000   1.332         .460000  0.4453         .560000  0.8224E-01
+ .660000  0.1480E-01     .760000  0.1721E-02     .860000  0.1086E-03
+ .960000  0.8943E-06
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.5085         .160000  0.5316         .260000  0.4310    
+ .360000  0.3604         .460000  0.3109         .560000  0.3814    
+ .660000  0.2995         .760000  0.2570         .860000  0.2627    
+ .960000  0.2225    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  6.9621394    
+ SQURE DEV  = 0.1126E-01
+ ACCUMULATED RESULTS:   INTEGRAL =  6.9621394    
+ DEV  = 0.1126E-01
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.6453E-01     .160000  0.8163E-01     .260000  0.9955E-01
+ .360000  0.1043         .460000  0.1357         .560000  0.1532    
+ .660000  0.1708         .760000  0.2030         .860000  0.1747    
+ .960000  0.2355    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.2350E-02     .160000  0.1290         .260000  0.5612    
+ .360000  0.4832         .460000  0.1803         .560000  0.3767E-01
+ .660000  0.5308E-02     .760000  0.6421E-03     .860000  0.3937E-04
+ .960000  0.3455E-06
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.2016         .160000  0.2028         .260000  0.1689    
+ .360000  0.1501         .460000  0.1237         .560000  0.1431    
+ .660000  0.1208         .760000  0.1020         .860000  0.9032E-01
+ .960000  0.1016    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  2.9596505    
+ SQURE DEV  = 0.4735E-02
+ ACCUMULATED RESULTS:   INTEGRAL =  2.9596505    
+ DEV  = 0.4735E-02
+ CHI**2 PER IT'N = 0.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.2912E-01     .160000  0.3068E-01     .260000  0.3971E-01
+ .360000  0.4826E-01     .460000  0.5091E-01     .560000  0.5686E-01
+ .660000  0.6949E-01     .760000  0.7678E-01     .860000  0.7932E-01
+ .960000  0.9487E-01
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1042E-02     .160000  0.5755E-01     .260000  0.2430    
+ .360000  0.2042         .460000  0.7142E-01     .560000  0.1494E-01
+ .660000  0.2348E-02     .760000  0.2945E-03     .860000  0.1774E-04
+ .960000  0.1454E-06
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.7852E-01     .160000  0.8021E-01     .260000  0.6200E-01
+ .360000  0.6329E-01     .460000  0.6068E-01     .560000  0.5487E-01
+ .660000  0.4764E-01     .760000  0.4569E-01     .860000  0.4676E-01
+ .960000  0.4275E-01
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  2.0501181    
+ SQURE DEV  = 0.3368E-02
+ ACCUMULATED RESULTS:   INTEGRAL =  2.0501181    
+ DEV  = 0.3368E-02
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1492E-01     .160000  0.1960E-01     .260000  0.2562E-01
+ .360000  0.3027E-01     .460000  0.3394E-01     .560000  0.4296E-01
+ .660000  0.4238E-01     .760000  0.5545E-01     .860000  0.5623E-01
+ .960000  0.6311E-01
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.7975E-03     .160000  0.4507E-01     .260000  0.1627    
+ .360000  0.1365         .460000  0.4416E-01     .560000  0.1005E-01
+ .660000  0.1703E-02     .760000  0.1818E-03     .860000  0.1302E-04
+ .960000  0.1133E-06
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.6811E-01     .160000  0.6281E-01     .260000  0.4846E-01
+ .360000  0.4993E-01     .460000  0.3706E-01     .560000  0.3566E-01
+ .660000  0.2763E-01     .760000  0.2461E-01     .860000  0.2417E-01
+ .960000  0.2155E-01
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  1969.1864    
+ SQURE DEV  =  2.931    
+ ACCUMULATED RESULTS:   INTEGRAL =  1969.1864    
+ DEV  =  2.931    
+ CHI**2 PER IT'N = 0.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   34.60         .160000   36.41         .260000   38.13    
+ .360000   40.56         .460000   36.00         .560000   35.71    
+ .660000   37.26         .760000   42.91         .860000   39.99    
+ .960000   39.17    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.2359E-03     .160000  0.2614E-01     .260000  0.4508    
+ .360000   4.700         .460000   36.72         .560000   123.2    
+ .660000   143.1         .760000   67.16         .860000   5.746    
+ .960000  0.6209E-01
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   10.46         .160000   23.84         .260000   27.84    
+ .360000   35.58         .460000   45.63         .560000   47.27    
+ .660000   47.01         .760000   50.42         .860000   45.80    
+ .960000   57.92    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  2627.2330    
+ SQURE DEV  =  4.100    
+ ACCUMULATED RESULTS:   INTEGRAL =  2627.2330    
+ DEV  =  4.100    
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   47.94         .160000   59.37         .260000   55.90    
+ .360000   49.63         .460000   55.50         .560000   50.68    
+ .660000   49.47         .760000   54.11         .860000   46.50    
+ .960000   49.46    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.3349E-03     .160000  0.3494E-01     .260000  0.5610    
+ .360000   4.731         .460000   34.40         .560000   137.9    
+ .660000   228.5         .760000   97.98         .860000   8.701    
+ .960000  0.9951E-01
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   52.32         .160000   56.29         .260000   57.12    
+ .360000   48.52         .460000   54.72         .560000   56.69    
+ .660000   57.72         .760000   55.77         .860000   50.77    
+ .960000   54.68    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  2102.5450    
+ SQURE DEV  =  3.333    
+ ACCUMULATED RESULTS:   INTEGRAL =  2102.5450    
+ DEV  =  3.333    
+ CHI**2 PER IT'N = 0.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   42.26         .160000   47.66         .260000   38.66    
+ .360000   38.89         .460000   39.15         .560000   40.80    
+ .660000   44.51         .760000   39.24         .860000   42.74    
+ .960000   31.27    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.3018E-03     .160000  0.2969E-01     .260000  0.4626    
+ .360000   3.529         .460000   25.62         .560000   117.8    
+ .660000   190.0         .760000   79.73         .860000   7.959    
+ .960000  0.8973E-01
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   48.14         .160000   39.46         .260000   45.39    
+ .360000   47.88         .460000   44.90         .560000   40.17    
+ .660000   42.44         .760000   37.33         .860000   36.49    
+ .960000   33.51    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  1369.8244    
+ SQURE DEV  =  2.108    
+ ACCUMULATED RESULTS:   INTEGRAL =  1369.8244    
+ DEV  =  2.108    
+ CHI**2 PER IT'N = -.1164E-05
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   34.61         .160000   29.21         .260000   32.04    
+ .360000   28.99         .460000   29.86         .560000   26.06    
+ .660000   26.52         .760000   23.16         .860000   22.34    
+ .960000   21.17    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.2090E-03     .160000  0.1914E-01     .260000  0.3278    
+ .360000   2.514         .460000   16.90         .560000   77.27    
+ .660000   123.4         .760000   54.40         .860000   5.428    
+ .960000  0.6556E-01
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   37.54         .160000   28.43         .260000   32.08    
+ .360000   31.07         .460000   28.04         .560000   30.51    
+ .660000   23.03         .760000   24.40         .860000   24.12    
+ .960000   21.51    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  751.29060    
+ SQURE DEV  =  1.148    
+ ACCUMULATED RESULTS:   INTEGRAL =  751.29060    
+ DEV  =  1.148    
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   14.80         .160000   19.30         .260000   14.25    
+ .360000   16.21         .460000   15.93         .560000   13.75    
+ .660000   13.69         .760000   13.15         .860000   12.87    
+ .960000   11.67    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1026E-03     .160000  0.1065E-01     .260000  0.1894    
+ .360000   1.425         .460000   9.654         .560000   40.17    
+ .660000   66.91         .760000   29.41         .860000   3.211    
+ .960000  0.3811E-01
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   20.04         .160000   17.82         .260000   16.96    
+ .360000   16.94         .460000   14.96         .560000   12.23    
+ .660000   12.81         .760000   11.58         .860000   11.97    
+ .960000   10.80    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  370.07126    
+ SQURE DEV  = 0.5658    
+ ACCUMULATED RESULTS:   INTEGRAL =  370.07126    
+ DEV  = 0.5658    
+ CHI**2 PER IT'N = 0.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   9.092         .160000   8.899         .260000   7.993    
+ .360000   7.576         .460000   8.126         .560000   8.049    
+ .660000   6.827         .760000   7.080         .860000   5.810    
+ .960000   6.506    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.4992E-04     .160000  0.5586E-02     .260000  0.8354E-01
+ .360000  0.7201         .460000   5.019         .560000   18.41    
+ .660000   33.81         .760000   16.49         .860000   1.664    
+ .960000  0.1919E-01
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   8.482         .160000   9.177         .260000   9.350    
+ .360000   7.597         .460000   7.077         .560000   6.829    
+ .660000   5.797         .760000   6.447         .860000   6.117    
+ .960000   5.126    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  284.25734    
+ SQURE DEV  = 0.4664    
+ ACCUMULATED RESULTS:   INTEGRAL =  284.25734    
+ DEV  = 0.4664    
+ CHI**2 PER IT'N = -.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   6.191         .160000   6.363         .260000   5.991    
+ .360000   6.367         .460000   6.391         .560000   5.567    
+ .660000   6.008         .760000   4.514         .860000   4.225    
+ .960000   4.461    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.4305E-04     .160000  0.4626E-02     .260000  0.7588E-01
+ .360000  0.5960         .460000   3.581         .560000   14.85    
+ .660000   23.80         .760000   12.49         .860000   1.369    
+ .960000  0.1688E-01
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   9.945         .160000   9.046         .260000   6.984    
+ .360000   6.016         .460000   6.081         .560000   4.938    
+ .660000   4.305         .760000   4.083         .860000   3.785    
+ .960000   3.024    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  85.324868    
+ SQURE DEV  = 0.1312    
+ ACCUMULATED RESULTS:   INTEGRAL =  85.324868    
+ DEV  = 0.1312    
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   2.097         .160000   2.004         .260000   1.843    
+ .360000   2.021         .460000   1.851         .560000   1.662    
+ .660000   1.558         .760000   1.634         .860000   1.361    
+ .960000   1.468    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1168E-04     .160000  0.1337E-02     .260000  0.2010E-01
+ .360000  0.1851         .460000   1.050         .560000   4.295    
+ .660000   7.687         .760000   3.633         .860000  0.4925    
+ .960000  0.5548E-02
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   2.833         .160000   2.228         .260000   1.986    
+ .360000   1.822         .460000   1.796         .560000   1.630    
+ .660000   1.395         .760000   1.212         .860000   1.307    
+ .960000   1.040    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  30.186126    
+ SQURE DEV  = 0.4516E-01
+ ACCUMULATED RESULTS:   INTEGRAL =  30.186126    
+ DEV  = 0.4516E-01
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.8040         .160000  0.7921         .260000  0.6554    
+ .360000  0.7309         .460000  0.6716         .560000  0.6142    
+ .660000  0.6238         .760000  0.4792         .860000  0.4690    
+ .960000  0.3757    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.4285E-05     .160000  0.4794E-03     .260000  0.7762E-02
+ .360000  0.6285E-01     .460000  0.3633         .560000   1.439    
+ .660000   2.518         .760000   1.439         .860000  0.1806    
+ .960000  0.2047E-02
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.8487         .160000  0.6627         .260000  0.7585    
+ .360000  0.5963         .460000  0.7080         .560000  0.4914    
+ .660000  0.5076         .760000  0.4514         .860000  0.4591    
+ .960000  0.4046    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  12.144624    
+ SQURE DEV  = 0.1768E-01
+ ACCUMULATED RESULTS:   INTEGRAL =  12.144624    
+ DEV  = 0.1768E-01
+ CHI**2 PER IT'N = -.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.3635         .160000  0.2921         .260000  0.2563    
+ .360000  0.2720         .460000  0.2794         .560000  0.2107    
+ .660000  0.2274         .760000  0.1859         .860000  0.1894    
+ .960000  0.1646    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1706E-05     .160000  0.1845E-03     .260000  0.2809E-02
+ .360000  0.2480E-01     .460000  0.1456         .560000  0.5800    
+ .660000   1.024         .760000  0.5616         .860000  0.7918E-01
+ .960000  0.9380E-03
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.3299         .160000  0.3021         .260000  0.2411    
+ .360000  0.2663         .460000  0.2582         .560000  0.2276    
+ .660000  0.2130         .760000  0.1793         .860000  0.1771    
+ .960000  0.1659    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  5.4223264    
+ SQURE DEV  = 0.7825E-02
+ ACCUMULATED RESULTS:   INTEGRAL =  5.4223264    
+ DEV  = 0.7825E-02
+ CHI**2 PER IT'N = -.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1460         .160000  0.1180         .260000  0.1218    
+ .360000  0.1210         .460000  0.1097         .560000  0.1043    
+ .660000  0.9064E-01     .760000  0.8994E-01     .860000  0.8060E-01
+ .960000  0.6558E-01
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.7361E-06     .160000  0.9284E-04     .260000  0.1401E-02
+ .360000  0.1191E-01     .460000  0.6534E-01     .560000  0.2493    
+ .660000  0.4714         .760000  0.2654         .860000  0.3823E-01
+ .960000  0.4358E-03
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1274         .160000  0.1248         .260000  0.1391    
+ .360000  0.1094         .460000  0.1021         .560000  0.1016    
+ .660000  0.9690E-01     .760000  0.9063E-01     .860000  0.8324E-01
+ .960000  0.7590E-01
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  3.9722967    
+ SQURE DEV  = 0.6000E-02
+ ACCUMULATED RESULTS:   INTEGRAL =  3.9722967    
+ DEV  = 0.6000E-02
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1070         .160000  0.1059         .260000  0.9330E-01
+ .360000  0.8973E-01     .460000  0.8571E-01     .560000  0.7741E-01
+ .660000  0.6740E-01     .760000  0.6660E-01     .860000  0.6232E-01
+ .960000  0.4382E-01
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.5681E-06     .160000  0.7421E-04     .260000  0.1147E-02
+ .360000  0.9388E-02     .460000  0.5146E-01     .560000  0.1703    
+ .660000  0.3196         .760000  0.1924         .860000  0.2994E-01
+ .960000  0.3792E-03
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1282         .160000  0.1042         .260000  0.1004    
+ .360000  0.9057E-01     .460000  0.8034E-01     .560000  0.6602E-01
+ .660000  0.5706E-01     .760000  0.5499E-01     .860000  0.4665E-01
+ .960000  0.4893E-01
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  2014.1121    
+ SQURE DEV  =  2.663    
+ ACCUMULATED RESULTS:   INTEGRAL =  2014.1121    
+ DEV  =  2.663    
+ CHI**2 PER IT'N = -.1164E-05
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   36.52         .160000   39.76         .260000   44.52    
+ .360000   37.73         .460000   39.06         .560000   39.19    
+ .660000   34.01         .760000   41.63         .860000   42.05    
+ .960000   38.15    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.5954E-02     .160000  0.5968         .260000   9.268    
+ .360000   55.85         .460000   136.2         .560000   145.4    
+ .660000   52.50         .760000   8.501         .860000  0.5717    
+ .960000  0.5693E-02
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   10.42         .160000   23.47         .260000   31.16    
+ .360000   34.50         .460000   41.31         .560000   46.94    
+ .660000   53.43         .760000   46.71         .860000   54.10    
+ .960000   60.85    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  2741.0506    
+ SQURE DEV  =  3.765    
+ ACCUMULATED RESULTS:   INTEGRAL =  2741.0506    
+ DEV  =  3.765    
+ CHI**2 PER IT'N = 0.1164E-05
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   58.40         .160000   53.88         .260000   59.59    
+ .360000   54.25         .460000   56.32         .560000   50.49    
+ .660000   56.29         .760000   58.04         .860000   54.20    
+ .960000   50.73    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.8470E-02     .160000  0.7511         .260000   10.96    
+ .360000   75.10         .460000   187.6         .560000   185.8    
+ .660000   64.37         .760000   11.80         .860000  0.7811    
+ .960000  0.8066E-02
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   51.90         .160000   63.58         .260000   56.40    
+ .360000   56.19         .460000   58.02         .560000   51.87    
+ .660000   59.65         .760000   54.75         .860000   52.44    
+ .960000   50.03    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  2240.5960    
+ SQURE DEV  =  3.027    
+ ACCUMULATED RESULTS:   INTEGRAL =  2240.5960    
+ DEV  =  3.027    
+ CHI**2 PER IT'N = -.1164E-05
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   47.41         .160000   41.49         .260000   44.67    
+ .360000   48.16         .460000   43.69         .560000   46.51    
+ .660000   38.82         .760000   44.19         .860000   52.59    
+ .960000   42.50    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.7638E-02     .160000  0.6345         .260000   9.614    
+ .360000   53.36         .460000   160.8         .560000   152.2    
+ .660000   51.33         .760000   9.679         .860000  0.7020    
+ .960000  0.7794E-02
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   54.34         .160000   50.57         .260000   47.04    
+ .360000   47.16         .460000   42.22         .560000   42.48    
+ .660000   40.67         .760000   35.94         .860000   37.41    
+ .960000   34.01    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  1478.2121    
+ SQURE DEV  =  1.981    
+ ACCUMULATED RESULTS:   INTEGRAL =  1478.2121    
+ DEV  =  1.981    
+ CHI**2 PER IT'N = -.1164E-05
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   30.58         .160000   32.84         .260000   30.64    
+ .360000   27.75         .460000   30.93         .560000   27.57    
+ .660000   26.60         .760000   29.68         .860000   30.90    
+ .960000   26.30    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.5303E-02     .160000  0.4620         .260000   7.082    
+ .360000   38.98         .460000   98.47         .560000   105.0    
+ .660000   34.31         .760000   6.129         .860000  0.4480    
+ .960000  0.5114E-02
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   37.35         .160000   32.57         .260000   38.69    
+ .360000   34.14         .460000   30.80         .560000   31.66    
+ .660000   28.87         .760000   26.93         .860000   24.33    
+ .960000   21.92    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  818.19470    
+ SQURE DEV  =  1.101    
+ ACCUMULATED RESULTS:   INTEGRAL =  818.19470    
+ DEV  =  1.101    
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   15.45         .160000   17.88         .260000   16.89    
+ .360000   17.97         .460000   15.63         .560000   15.62    
+ .660000   18.18         .760000   17.16         .860000   17.44    
+ .960000   17.63    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.2751E-02     .160000  0.2456         .260000   3.629    
+ .360000   21.39         .460000   59.79         .560000   58.94    
+ .660000   21.04         .760000   3.508         .860000  0.2605    
+ .960000  0.2755E-02
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   20.05         .160000   22.03         .260000   19.39    
+ .360000   16.60         .460000   16.41         .560000   16.89    
+ .660000   15.09         .760000   13.06         .860000   12.64    
+ .960000   11.47    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  616.68393    
+ SQURE DEV  = 0.8919    
+ ACCUMULATED RESULTS:   INTEGRAL =  616.68393    
+ DEV  = 0.8919    
+ CHI**2 PER IT'N = -.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   12.51         .160000   10.05         .260000   12.65    
+ .360000   11.86         .460000   13.31         .560000   12.84    
+ .660000   12.60         .760000   12.65         .860000   11.77    
+ .960000   13.42    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.2312E-02     .160000  0.1893         .260000   3.041    
+ .360000   15.81         .460000   46.87         .560000   43.55    
+ .660000   15.13         .760000   2.671         .860000  0.1871    
+ .960000  0.2101E-02
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   22.97         .160000   17.81         .260000   14.44    
+ .360000   13.80         .460000   12.09         .560000   10.03    
+ .660000   8.549         .760000   8.637         .860000   6.861    
+ .960000   5.530    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  208.70077    
+ SQURE DEV  = 0.2975    
+ ACCUMULATED RESULTS:   INTEGRAL =  208.70077    
+ DEV  = 0.2975    
+ CHI**2 PER IT'N = -.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   3.751         .160000   4.229         .260000   3.819    
+ .360000   4.117         .460000   4.078         .560000   4.320    
+ .660000   4.260         .760000   4.158         .860000   3.675    
+ .960000   3.641    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.7227E-03     .160000  0.6526E-01     .260000  0.9698    
+ .360000   5.331         .460000   14.11         .560000   13.34    
+ .660000   5.805         .760000  0.9493         .860000  0.7303E-01
+ .960000  0.7569E-03
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   8.476         .160000   6.806         .260000   5.839    
+ .360000   4.857         .460000   4.107         .560000   3.674    
+ .660000   3.105         .760000   2.453         .860000   1.970    
+ .960000   1.810    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  4135.9120    
+ SQURE DEV  =  5.727    
+ ACCUMULATED RESULTS:   INTEGRAL =  4135.9120    
+ DEV  =  5.727    
+ CHI**2 PER IT'N = 0.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   84.62         .160000   86.01         .260000   87.18    
+ .360000   75.40         .460000   84.75         .560000   84.59    
+ .660000   86.80         .760000   79.63         .860000   74.63    
+ .960000   78.22    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1267E-01     .160000   1.095         .260000   17.28    
+ .360000   103.4         .460000   281.4         .560000   279.5    
+ .660000   103.6         .760000   17.46         .860000   1.214    
+ .960000  0.1403E-01
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   91.39         .160000   99.11         .260000   96.90    
+ .360000   83.88         .460000   92.43         .560000   86.78    
+ .660000   78.48         .760000   87.76         .860000   60.20    
+ .960000   70.60    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  2290.2535    
+ SQURE DEV  =  3.237    
+ ACCUMULATED RESULTS:   INTEGRAL =  2290.2535    
+ DEV  =  3.237    
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   45.12         .160000   39.25         .260000   42.98    
+ .360000   50.46         .460000   49.80         .560000   47.02    
+ .660000   42.16         .760000   42.53         .860000   45.66    
+ .960000   43.49    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.8825E-02     .160000  0.7115         .260000   10.43    
+ .360000   59.13         .460000   160.7         .560000   166.5    
+ .660000   56.22         .760000   9.904         .860000  0.7193    
+ .960000  0.7159E-02
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   68.09         .160000   61.50         .260000   59.10    
+ .360000   49.92         .460000   46.23         .560000   40.44    
+ .660000   32.52         .760000   34.96         .860000   28.61    
+ .960000   23.44    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  826.32096    
+ SQURE DEV  =  1.559    
+ ACCUMULATED RESULTS:   INTEGRAL =  826.32096    
+ DEV  =  1.559    
+ CHI**2 PER IT'N = 0.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   18.46         .160000   17.96         .260000   18.66    
+ .360000   18.05         .460000   17.34         .560000   17.93    
+ .660000   17.49         .760000   18.14         .860000   14.61    
+ .960000   14.26    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.3098E-02     .160000  0.2768         .260000   4.167    
+ .360000   21.90         .460000   58.48         .560000   57.93    
+ .660000   22.77         .760000   3.961         .860000  0.2652    
+ .960000  0.2687E-02
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   50.49         .160000   32.23         .260000   25.71    
+ .360000   17.09         .460000   11.45         .560000   9.383    
+ .660000   6.760         .760000   4.761         .860000   4.198    
+ .960000   3.385    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  1782.8622    
+ SQURE DEV  =  2.805    
+ ACCUMULATED RESULTS:   INTEGRAL =  1782.8622    
+ DEV  =  2.805    
+ CHI**2 PER IT'N = 0.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   29.78         .160000   31.53         .260000   31.15    
+ .360000   33.40         .460000   35.35         .560000   36.68    
+ .660000   41.14         .760000   35.07         .860000   44.90    
+ .960000   40.31    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1683         .160000   15.35         .260000   102.3    
+ .360000   141.0         .460000   74.63         .560000   14.77    
+ .660000   1.421         .760000  0.1533         .860000  0.8063E-02
+ .960000  0.8162E-04
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   9.683         .160000   20.65         .260000   28.84    
+ .360000   35.48         .460000   33.34         .560000   36.31    
+ .660000   41.66         .760000   46.19         .860000   50.19    
+ .960000   40.58    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  2268.8838    
+ SQURE DEV  =  3.652    
+ ACCUMULATED RESULTS:   INTEGRAL =  2268.8838    
+ DEV  =  3.652    
+ CHI**2 PER IT'N = 0.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   38.07         .160000   38.39         .260000   43.47    
+ .360000   39.90         .460000   51.30         .560000   47.48    
+ .660000   52.05         .760000   46.02         .860000   45.26    
+ .960000   56.39    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.3047         .160000   21.30         .260000   140.5    
+ .360000   200.4         .460000   76.79         .560000   11.73    
+ .660000   1.597         .760000  0.1714         .860000  0.1151E-01
+ .960000  0.1094E-03
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   49.67         .160000   47.04         .260000   42.12    
+ .360000   54.89         .460000   41.32         .560000   44.38    
+ .660000   41.66         .760000   40.92         .860000   39.21    
+ .960000   40.47    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  1731.1621    
+ SQURE DEV  =  2.902    
+ ACCUMULATED RESULTS:   INTEGRAL =  1731.1621    
+ DEV  =  2.902    
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   23.49         .160000   27.93         .260000   30.29    
+ .360000   33.83         .460000   35.34         .560000   34.99    
+ .660000   36.80         .760000   37.07         .860000   42.03    
+ .960000   43.12    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.2454         .160000   17.93         .260000   122.4    
+ .360000   144.8         .460000   46.40         .560000   8.304    
+ .660000   1.064         .760000  0.1294         .860000  0.8309E-02
+ .960000  0.8445E-04
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   40.35         .160000   45.88         .260000   37.26    
+ .360000   35.34         .460000   35.82         .560000   38.35    
+ .660000   33.43         .760000   36.12         .860000   30.26    
+ .960000   32.51    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  1068.1135    
+ SQURE DEV  =  1.773    
+ ACCUMULATED RESULTS:   INTEGRAL =  1068.1135    
+ DEV  =  1.773    
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   15.26         .160000   16.60         .260000   16.97    
+ .360000   16.76         .460000   21.93         .560000   21.61    
+ .660000   22.62         .760000   24.57         .860000   24.59    
+ .960000   24.64    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1888         .160000   11.92         .260000   81.88    
+ .360000   84.22         .460000   28.54         .560000   4.919    
+ .660000  0.7208         .760000  0.9102E-01     .860000  0.5093E-02
+ .960000  0.5398E-04
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   26.67         .160000   26.38         .260000   21.35    
+ .360000   22.65         .460000   19.40         .560000   21.10    
+ .660000   17.07         .760000   16.15         .860000   19.90    
+ .960000   14.93    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  559.52188    
+ SQURE DEV  = 0.9349    
+ ACCUMULATED RESULTS:   INTEGRAL =  559.52188    
+ DEV  = 0.9349    
+ CHI**2 PER IT'N = -.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   8.622         .160000   8.587         .260000   10.21    
+ .360000   10.99         .460000   10.82         .560000   13.36    
+ .660000   11.67         .760000   12.71         .860000   14.55    
+ .960000   16.56    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1058         .160000   7.565         .260000   43.79    
+ .360000   46.56         .460000   14.84         .560000   2.738    
+ .660000  0.4321         .760000  0.4842E-01     .860000  0.3013E-02
+ .960000  0.2703E-04
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   14.83         .160000   13.50         .260000   13.04    
+ .360000   11.94         .460000   9.153         .560000   10.86    
+ .660000   8.867         .760000   9.554         .860000   8.505    
+ .960000   8.170    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  264.98064    
+ SQURE DEV  = 0.4434    
+ ACCUMULATED RESULTS:   INTEGRAL =  264.98064    
+ DEV  = 0.4434    
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   3.568         .160000   4.026         .260000   4.813    
+ .360000   4.438         .460000   4.876         .560000   5.209    
+ .660000   5.937         .760000   6.054         .860000   5.055    
+ .960000   7.228    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.5878E-01     .160000   3.796         .260000   19.17    
+ .360000   20.28         .460000   7.191         .560000   1.319    
+ .660000  0.1813         .760000  0.2349E-01     .860000  0.1330E-02
+ .960000  0.1274E-04
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   7.270         .160000   7.145         .260000   6.149    
+ .360000   5.258         .460000   5.672         .560000   4.802    
+ .660000   4.759         .760000   4.035         .860000   4.071    
+ .960000   3.628    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  193.86622    
+ SQURE DEV  = 0.3470    
+ ACCUMULATED RESULTS:   INTEGRAL =  193.86622    
+ DEV  = 0.3470    
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   2.328         .160000   2.621         .260000   3.399    
+ .360000   3.241         .460000   4.165         .560000   4.227    
+ .660000   5.346         .760000   4.854         .860000   5.063    
+ .960000   5.722    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.4301E-01     .160000   2.993         .260000   15.07    
+ .360000   15.57         .460000   4.876         .560000  0.9793    
+ .660000  0.1441         .760000  0.1668E-01     .860000  0.9582E-03
+ .960000  0.9510E-05
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   7.077         .160000   5.679         .260000   4.674    
+ .360000   4.102         .460000   3.404         .560000   3.385    
+ .660000   2.837         .760000   2.559         .860000   2.127    
+ .960000   2.102    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  54.519053    
+ SQURE DEV  = 0.9103E-01
+ ACCUMULATED RESULTS:   INTEGRAL =  54.519053    
+ DEV  = 0.9103E-01
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.6016         .160000  0.6613         .260000  0.7613    
+ .360000   1.025         .460000  0.9344         .560000   1.203    
+ .660000   1.188         .760000   1.309         .860000   1.349    
+ .960000   1.323    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1463E-01     .160000  0.8729         .260000   4.143    
+ .360000   3.786         .460000   1.444         .560000  0.2592    
+ .660000  0.4289E-01     .760000  0.5086E-02     .860000  0.2705E-03
+ .960000  0.2593E-05
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   1.861         .160000   1.437         .260000   1.460    
+ .360000   1.262         .460000   1.008         .560000   1.063    
+ .660000  0.9059         .760000  0.7803         .860000  0.6013    
+ .960000  0.6218    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  18.193938    
+ SQURE DEV  = 0.2949E-01
+ ACCUMULATED RESULTS:   INTEGRAL =  18.193938    
+ DEV  = 0.2949E-01
+ CHI**2 PER IT'N = -.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.2005         .160000  0.2049         .260000  0.2502    
+ .360000  0.2861         .460000  0.3228         .560000  0.3735    
+ .660000  0.4219         .760000  0.4228         .860000  0.4528    
+ .960000  0.5185    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.5622E-02     .160000  0.3505         .260000   1.438    
+ .360000   1.404         .460000  0.4341         .560000  0.9192E-01
+ .660000  0.1445E-01     .760000  0.1672E-02     .860000  0.9946E-04
+ .960000  0.8972E-06
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.5444         .160000  0.4475         .260000  0.4454    
+ .360000  0.3769         .460000  0.3415         .560000  0.3258    
+ .660000  0.3105         .760000  0.3080         .860000  0.2781    
+ .960000  0.2227    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  6.9482459    
+ SQURE DEV  = 0.1131E-01
+ ACCUMULATED RESULTS:   INTEGRAL =  6.9482459    
+ DEV  = 0.1131E-01
+ CHI**2 PER IT'N = 0.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.7031E-01     .160000  0.7730E-01     .260000  0.9515E-01
+ .360000  0.1029         .460000  0.1384         .560000  0.1536    
+ .660000  0.1532         .760000  0.1716         .860000  0.2212    
+ .960000  0.2575    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.2295E-02     .160000  0.1309         .260000  0.5235    
+ .360000  0.5014         .460000  0.1799         .560000  0.3592E-01
+ .660000  0.5888E-02     .760000  0.6866E-03     .860000  0.3984E-04
+ .960000  0.3576E-06
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.2013         .160000  0.2220         .260000  0.1789    
+ .360000  0.1436         .460000  0.1339         .560000  0.1382    
+ .660000  0.1196         .760000  0.1131         .860000  0.9742E-01
+ .960000  0.1078    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  2.9588016    
+ SQURE DEV  = 0.4744E-02
+ ACCUMULATED RESULTS:   INTEGRAL =  2.9588016    
+ DEV  = 0.4744E-02
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.2476E-01     .160000  0.3297E-01     .260000  0.4031E-01
+ .360000  0.4714E-01     .460000  0.4823E-01     .560000  0.6402E-01
+ .660000  0.6896E-01     .760000  0.7901E-01     .860000  0.7540E-01
+ .960000  0.9427E-01
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1106E-02     .160000  0.5830E-01     .260000  0.2292    
+ .360000  0.2108         .460000  0.6716E-01     .560000  0.1543E-01
+ .660000  0.2528E-02     .760000  0.2658E-03     .860000  0.1655E-04
+ .960000  0.1434E-06
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.8718E-01     .160000  0.7405E-01     .260000  0.7113E-01
+ .360000  0.6591E-01     .460000  0.6490E-01     .560000  0.5260E-01
+ .660000  0.3845E-01     .760000  0.4509E-01     .860000  0.4851E-01
+ .960000  0.4389E-01
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  2.0562901    
+ SQURE DEV  = 0.3397E-02
+ ACCUMULATED RESULTS:   INTEGRAL =  2.0562901    
+ DEV  = 0.3397E-02
+ CHI**2 PER IT'N = 0.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1934E-01     .160000  0.1947E-01     .260000  0.2744E-01
+ .360000  0.3386E-01     .460000  0.4096E-01     .560000  0.4331E-01
+ .660000  0.4418E-01     .760000  0.5456E-01     .860000  0.6670E-01
+ .960000  0.6354E-01
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.9016E-03     .160000  0.4660E-01     .260000  0.1609    
+ .360000  0.1332         .460000  0.5308E-01     .560000  0.1079E-01
+ .660000  0.1797E-02     .760000  0.2106E-03     .860000  0.1256E-04
+ .960000  0.1181E-06
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.7552E-01     .160000  0.5960E-01     .260000  0.5893E-01
+ .360000  0.4712E-01     .460000  0.4342E-01     .560000  0.3142E-01
+ .660000  0.3157E-01     .760000  0.2623E-01     .860000  0.2063E-01
+ .960000  0.2258E-01
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  1966.7922    
+ SQURE DEV  =  2.898    
+ ACCUMULATED RESULTS:   INTEGRAL =  1966.7922    
+ DEV  =  2.898    
+ CHI**2 PER IT'N = -.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   32.96         .160000   40.55         .260000   44.43    
+ .360000   37.73         .460000   40.88         .560000   43.73    
+ .660000   41.52         .760000   37.62         .860000   32.41    
+ .960000   34.25    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.2410E-03     .160000  0.2870E-01     .260000  0.4858    
+ .360000   4.538         .460000   37.96         .560000   133.2    
+ .660000   160.4         .760000   58.94         .860000   6.061    
+ .960000  0.5987E-01
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   9.863         .160000   24.72         .260000   32.54    
+ .360000   40.81         .460000   41.60         .560000   42.15    
+ .660000   40.65         .760000   48.85         .860000   52.80    
+ .960000   53.25    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  2624.7499    
+ SQURE DEV  =  4.123    
+ ACCUMULATED RESULTS:   INTEGRAL =  2624.7499    
+ DEV  =  4.123    
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   57.74         .160000   54.33         .260000   55.13    
+ .360000   53.25         .460000   55.11         .560000   61.07    
+ .660000   50.88         .760000   53.74         .860000   40.90    
+ .960000   46.87    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.3475E-03     .160000  0.3508E-01     .260000  0.5381    
+ .360000   4.752         .460000   36.63         .560000   142.5    
+ .660000   258.6         .760000   88.78         .860000   8.029    
+ .960000  0.9902E-01
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   55.82         .160000   55.19         .260000   51.61    
+ .360000   54.49         .460000   50.14         .560000   50.40    
+ .660000   50.67         .760000   57.32         .860000   53.70    
+ .960000   53.03    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  2103.6378    
+ SQURE DEV  =  3.291    
+ ACCUMULATED RESULTS:   INTEGRAL =  2103.6378    
+ DEV  =  3.291    
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   42.47         .160000   47.08         .260000   42.94    
+ .360000   43.81         .460000   42.02         .560000   36.98    
+ .660000   41.54         .760000   37.49         .860000   36.99    
+ .960000   36.87    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.2873E-03     .160000  0.2817E-01     .260000  0.4634    
+ .360000   4.129         .460000   25.85         .560000   112.9    
+ .660000   189.5         .760000   79.82         .860000   7.491    
+ .960000  0.9307E-01
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   48.27         .160000   49.80         .260000   40.34    
+ .360000   43.32         .460000   42.27         .560000   42.23    
+ .660000   40.59         .760000   38.58         .860000   38.23    
+ .960000   33.79    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  1366.1784    
+ SQURE DEV  =  2.114    
+ ACCUMULATED RESULTS:   INTEGRAL =  1366.1784    
+ DEV  =  2.114    
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   34.13         .160000   27.49         .260000   30.80    
+ .360000   31.04         .460000   31.69         .560000   24.77    
+ .660000   26.64         .760000   24.37         .860000   24.48    
+ .960000   22.52    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1875E-03     .160000  0.1984E-01     .260000  0.3130    
+ .360000   2.707         .460000   17.61         .560000   72.81    
+ .660000   124.4         .760000   53.86         .860000   5.217    
+ .960000  0.6156E-01
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   34.01         .160000   33.73         .260000   31.97    
+ .360000   31.30         .460000   31.46         .560000   26.82    
+ .660000   27.21         .760000   23.73         .860000   22.71    
+ .960000   16.98    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  748.17603    
+ SQURE DEV  =  1.130    
+ ACCUMULATED RESULTS:   INTEGRAL =  748.17603    
+ DEV  =  1.130    
+ CHI**2 PER IT'N = -.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   15.47         .160000   16.35         .260000   15.01    
+ .360000   15.36         .460000   14.06         .560000   15.57    
+ .660000   15.12         .760000   13.41         .860000   10.04    
+ .960000   11.31    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1114E-03     .160000  0.1067E-01     .260000  0.1786    
+ .360000   1.444         .460000   8.914         .560000   40.42    
+ .660000   68.63         .760000   29.74         .860000   3.205    
+ .960000  0.3781E-01
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   19.87         .160000   18.89         .260000   17.90    
+ .360000   17.54         .460000   12.84         .560000   13.27    
+ .660000   13.18         .760000   12.28         .860000   11.25    
+ .960000   9.357    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  370.11404    
+ SQURE DEV  = 0.5800    
+ ACCUMULATED RESULTS:   INTEGRAL =  370.11404    
+ DEV  = 0.5800    
+ CHI**2 PER IT'N = 0.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   7.969         .160000   9.240         .260000   8.312    
+ .360000   7.547         .460000   7.463         .560000   7.811    
+ .660000   7.533         .760000   6.391         .860000   6.506    
+ .960000   5.891    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.5187E-04     .160000  0.5661E-02     .260000  0.8179E-01
+ .360000  0.6655         .460000   4.432         .560000   18.83    
+ .660000   29.47         .760000   15.38         .860000   1.813    
+ .960000  0.1904E-01
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   10.21         .160000   9.322         .260000   7.215    
+ .360000   7.297         .460000   8.382         .560000   6.865    
+ .660000   6.741         .760000   6.530         .860000   5.669    
+ .960000   5.221    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  284.55756    
+ SQURE DEV  = 0.4597    
+ ACCUMULATED RESULTS:   INTEGRAL =  284.55756    
+ DEV  = 0.4597    
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   7.030         .160000   7.590         .260000   6.611    
+ .360000   6.095         .460000   6.105         .560000   5.861    
+ .660000   5.858         .760000   4.757         .860000   5.452    
+ .960000   4.651    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.4111E-04     .160000  0.4458E-02     .260000  0.6662E-01
+ .360000  0.5436         .460000   3.434         .560000   14.51    
+ .660000   24.80         .760000   11.94         .860000   1.397    
+ .960000  0.1766E-01
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   8.686         .160000   7.021         .260000   7.460    
+ .360000   6.640         .460000   5.374         .560000   4.804    
+ .660000   3.677         .760000   4.232         .860000   3.595    
+ .960000   2.912    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  85.348936    
+ SQURE DEV  = 0.1309    
+ ACCUMULATED RESULTS:   INTEGRAL =  85.348936    
+ DEV  = 0.1309    
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   2.048         .160000   2.152         .260000   2.035    
+ .360000   1.992         .460000   1.974         .560000   1.737    
+ .660000   1.619         .760000   1.559         .860000   1.265    
+ .960000   1.189    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1137E-04     .160000  0.1145E-02     .260000  0.2145E-01
+ .360000  0.1713         .460000   1.042         .560000   4.146    
+ .660000   7.098         .760000   3.840         .860000  0.4868    
+ .960000  0.5733E-02
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000   2.625         .160000   2.379         .260000   2.192    
+ .360000   1.919         .460000   1.768         .560000   1.570    
+ .660000   1.306         .760000   1.276         .860000   1.155    
+ .960000  0.9942    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  30.274655    
+ SQURE DEV  = 0.4574E-01
+ ACCUMULATED RESULTS:   INTEGRAL =  30.274655    
+ DEV  = 0.4574E-01
+ CHI**2 PER IT'N = -.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.6681         .160000  0.7212         .260000  0.7538    
+ .360000  0.6345         .460000  0.5574         .560000  0.5376    
+ .660000  0.5259         .760000  0.5863         .860000  0.4083    
+ .960000  0.4611    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.4132E-05     .160000  0.5011E-03     .260000  0.7706E-02
+ .360000  0.6302E-01     .460000  0.3890         .560000   1.466    
+ .660000   2.595         .760000   1.324         .860000  0.1836    
+ .960000  0.2262E-02
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.9134         .160000  0.8326         .260000  0.7726    
+ .360000  0.6489         .460000  0.5639         .560000  0.5412    
+ .660000  0.5309         .760000  0.4497         .860000  0.4753    
+ .960000  0.3622    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  12.171141    
+ SQURE DEV  = 0.1756E-01
+ ACCUMULATED RESULTS:   INTEGRAL =  12.171141    
+ DEV  = 0.1756E-01
+ CHI**2 PER IT'N = 0.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.3046         .160000  0.2849         .260000  0.2880    
+ .360000  0.3078         .460000  0.2608         .560000  0.2098    
+ .660000  0.2057         .760000  0.2172         .860000  0.1952    
+ .960000  0.1694    
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1724E-05     .160000  0.1765E-03     .260000  0.3170E-02
+Thanks for using LHAPDF 6.2.0. Please make sure to cite the paper:
+  Eur.Phys.J. C75 (2015) 3, 132  (http://arxiv.org/abs/1412.7420)
+ .360000  0.2733E-01     .460000  0.1585         .560000  0.5773    
+ .660000   1.087         .760000  0.5694         .860000  0.7685E-01
+ .960000  0.9193E-03
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.3178         .160000  0.2842         .260000  0.2928    
+ .360000  0.2386         .460000  0.2536         .560000  0.2049    
+ .660000  0.2254         .760000  0.1769         .860000  0.1548    
+ .960000  0.1509    
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  5.4275993    
+ SQURE DEV  = 0.7794E-02
+ ACCUMULATED RESULTS:   INTEGRAL =  5.4275993    
+ DEV  = 0.7794E-02
+ CHI**2 PER IT'N = 0.5821E-06
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1411         .160000  0.1377         .260000  0.1373    
+ .360000  0.1375         .460000  0.1132         .560000  0.1115    
+ .660000  0.9544E-01     .760000  0.8437E-01     .860000  0.7511E-01
+ .960000  0.6452E-01
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.8052E-06     .160000  0.9062E-04     .260000  0.1448E-02
+ .360000  0.1219E-01     .460000  0.6636E-01     .560000  0.2364    
+ .660000  0.4800         .760000  0.2550         .860000  0.3775E-01
+ .960000  0.4241E-03
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1601         .160000  0.1278         .260000  0.1150    
+ .360000  0.1212         .460000  0.1043         .560000  0.1036    
+ .660000  0.8908E-01     .760000  0.9712E-01     .860000  0.7983E-01
+ .960000  0.7025E-01
+
+ INPUT PARAMETERS FOR MC_VEGAS: 
+ NDIM=  3    NCALL=  18522.     IT=  0
+ ITMX=  1    ACC=   -1.00       NPRN=  5
+ ALPH= 1.50    MDS=  1          ND=  50
+(XL,XU)= ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+         ( 0.00000    , 1.00000    )
+
+ INTEGRATION BY MC_VEGAS  ITERATION NO.   1
+ INTEGRAL =  3.9643281    
+ SQURE DEV  = 0.6040E-02
+ ACCUMULATED RESULTS:   INTEGRAL =  3.9643281    
+ DEV  = 0.6040E-02
+ CHI**2 PER IT'N =  0.000    
+
+DATA FOR AXIS  1
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.9634E-01     .160000  0.1057         .260000  0.9096E-01
+ .360000  0.1028         .460000  0.8458E-01     .560000  0.8117E-01
+ .660000  0.7283E-01     .760000  0.6528E-01     .860000  0.5803E-01
+ .960000  0.5031E-01
+
+DATA FOR AXIS  2
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.5808E-06     .160000  0.6894E-04     .260000  0.1055E-02
+ .360000  0.8241E-02     .460000  0.5093E-01     .560000  0.1809    
+ .660000  0.3241         .760000  0.1933         .860000  0.2911E-01
+ .960000  0.3697E-03
+
+DATA FOR AXIS  3
+    X       DELTA I          X       DELTA I         X       DELTA I
+ .060000  0.1385         .160000  0.1135         .260000  0.1086    
+ .360000  0.9528E-01     .460000  0.7476E-01     .560000  0.7323E-01
+ .660000  0.6098E-01     .760000  0.5665E-01     .860000  0.4693E-01
+ .960000  0.4368E-01

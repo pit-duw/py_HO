@@ -1,0 +1,147 @@
+# Compulsory information
+colpar 1		# colliding particles: 1=pp, 2=ppbar, 3=e+e-
+energy_beam1 3500d0          	# beam 1 energy (GeV)
+energy_beam2 3500d0              # beam 2 energy (GeV)
+alphasrun 1
+alphas2 0.267d0
+alphaem 0.00729927d0
+qcd 2  # 0=only electroweak, 1=electroweak and QCD, 2=only QCD,3=only QED, 4=QCD and QED 
+cmass 1.5d0
+bmass 4.75d0
+tmass 178d0
+# pp(bar) cuts
+cutoffp 1.0d-6         # cutoff (pp(bar) case)
+minptl 0.0d0          # minimum lepton pt
+minptq 0.0d0            # minimum quark pt
+minptc 0.0d0          # minimum charm pt
+minptb 0.d0            # minimum bottom pt
+minptt 0.d0            # minimum top pt
+minptp 0.d0            # minimum photon pt
+minptconia 35d0        # minimum charmonium pt
+minptbonia 0.d0        # minimum bottomnium pt
+minptBconia 0.d0       # minimum Bc pt
+maxrapl 0.d0          # maximum lepton rapidity
+maxyrapl 0.0d0        # maximum lepton y rapidity
+minyrapl 0d0
+maxrapq 30d0           # maximum quark rapidity
+maxyrapq 30d0          # maximum quark y rapidity
+minyrapq 0d0
+maxy1c   1.2d0
+miny1c   0d0
+minpt1c  35d0
+maxrapc 30d0          # maximum charm rapidity
+maxyrapc 30d0         # maximum charm y  rapidity
+minyrapc 0d0
+maxrapb 30d0           # maximum bottom rapidity
+maxyrapb 30d0          # maximum bottom y rapidity
+minyrapb 0d0
+maxrapt 30.0d0          # maximum top rapidity
+maxyrapt 30d0           # maximum top y rapidity
+minyrapt 0d0
+maxrapp 30d0           # maximum photon rapidity
+maxyrapp 30d0          # maximum photon y rapidity
+minyrapp 0d0
+maxrapconia 30d0         # maximum charmonium rapidity
+maxyrapconia 1.2d0        # maximum charmonium y rapidity
+minyrapconia 0d0         # minimum charmonium y rapidity
+maxrapbonia 30d0         # maximum bottonium rapidity
+maxyrapbonia 30d0        # maximum bottonium y rapidity
+minyrapbonia 0d0         # minimum bottonium y rapidity
+maxrapBconia 30d0        # maximum Bc rapidity
+maxyrapBconia 30d0      # maximum Bc y rapidity
+minyrapBconia 0d0       # minimum Bc y rapidity
+mindrll 0.d0           # minimum delta R (lepton-lepton)
+mindrlq 0.d0           # minimum delta R (lepton-quark)
+mindrqq 0.0d0          # minimum delta R (quark-quark)
+mindrqb 0.0d0          # minimum delta R (quark-b)
+mindrbb 0.0d0          # minimum delta R (b-b)
+mindrpf 0.0d0          # minimum delta R (photon-fermion)
+minmqqp 0d0           # minimum mass quark with quark in the pp(bar) case
+minmqb  0.d0           # minimum mass quark with b in the pp(bar) case
+minmbb  0.d0           # minimum mass b with b in the pp(bar) case
+minmqbeam 0d0        # minimum mass u,d,s quarks and gluon with partonic beam in the pp(bar) case
+absoluterap T 	            # absolute rap (T) or not (F), when beam1=!=beam2, it always takes as F
+cutoffe 1.0d-10         # cutoff (e+e- case)
+minenl 0d0          # minimum lepton energy
+minenq 0d0          # minimum quark energy
+minenp 0d0          # minimum photon energy
+minanglb 0d0         # minimum angle (degrees) between lepton and beam
+minangqb 0d0         # minimum angle (degrees) between quark and beam
+minangpb 0d0         # minimum angle (degrees) between photon and beam
+minangll 0d0         # minimum angle (degrees) between lepton and lepton
+minanglq 0d0         # minimum angle (degrees) between lepton and quark
+minangqq 0d0         # minimum angle (degrees) between quark and quark
+minangpf 0d0         # minimum angle (degrees) between photon and fermion
+minmqqe 0d0         # minimum mass quark with quark in the e+e- case
+
+# decay	cuts
+decay_minptl  0d0      # minimum pt of lepton from decaying
+decay_maxycl  1d9      # maximum y rapidity of lepton from decaying
+decay_minycl  0d0      # minimum y rapidity of lepton from decaying
+decay_maxrapl 1d9      # maximum pesudo rapidity of lepton from	decaying
+decay_minel   0d0      # minimum energy	of lepton from decaying
+decay_maxcl   1d0      # maximum cos angle between beam	and lepton from	decaying
+
+# special cuts
+literature 14060484   # the special cutoffs in the literature, please use the 8 arXiv numbers
+
+unwgt F                # unweighting on/off
+lhewgtup T             # xwgtup=1 (F) or not (T) in unweighted lhe file
+preunw 30000            # n. of pre-unweighted events
+unwevt 20000           # n. of unweighted events (in summation mode, it is the total number)
+MeasureSpeed F         # measure speed (T) or not (F)
+nmc 10000000
+nopt 500000
+nopt_step 500000
+optf 1
+maxopt 8
+noptlim 5000000
+iopt 1
+alimit 0               # The lower limit of the alpha(i) in multichannel, 0 means no lower limitation
+nlimit 1             # The lower limit of the number of channels
+gener 3                # Monte Carlo generator: 0 PHEGAS 1 RAMBO 2 DURHAM 3 VEGAS -1 From PS.input
+ranhel 4
+lhapdf T    # use lhapdf (only valid	when lhapdf are	installed)
+pdf 100000
+reweight_pdf T         # reweight to get PDF uncertainty, only works when lhapdf = T
+pdf_min 101101          # first of the error pdf sets
+pdf_max 101132          # last of the error pdf sets
+adapt F
+grid_ncmax 3000
+ptdisQ F
+Pt1 5d0
+Scale 2  # Sqrt(m1**2+pt1**2)
+ScaleFactor 1d0 # the factor for the scale
+FScaleValue 2.8d0
+exp3pjQ  T
+modes 0
+LSJ 2
+SDME1 0
+SDME2 0
+PolarFrame 1
+SDPart 0
+iqnum 3
+quarksumQ T
+OctetQ T
+topdrawer_output T     # topdrawer output file (T) or not (F)
+gnuplot_output T       # gnuplot output file (T) or not (F)
+root_output T          # root output file (T) or not (F)
+emep_ISR_shower 0     # 0: no ISR shower; 1: ISR by QEDPS
+useMCFMrun F
+
+LDMEcc3P21 0.0179049d0
+# LDMEcc3S11 0.0803566d0
+LDMEcc3S11 0.0644444d0
+LDMEcc3S18 0.0648556d0
+LDMEcc1S01 0.0644444d0
+LDMEcc1S08 0.125d0
+LDMEcc3P01 0.0179049d0
+LDMEcc3P11 0.0179049d0
+LDMEbb3S11 1.2d0
+# For reference, here is the particle numbering:
+# ve e u d vm mu c s vt ta t  b  a  z  w+ w- g  h chi f+ f- jet
+# 1  2 3 4  5  6 7 8  9 10 11 12 31 32 33 34 35 41 42 43 44  100
+# The respective antiparticles have a minus sign (for example: positron is -2)
+# A jet in the final state is denoted by the number 100
+
+# Enter here your additional commands if you wish to alterate the default values

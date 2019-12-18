@@ -1,0 +1,55 @@
+  MINUIT RELEASE 96.03  INITIALIZED.   DIMENSIONS 100/100  EPSMAC=  0.89E-15
+
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 'kapa      '   0.55180      constant
+     2 'lambda    '   0.29813      constant
+     3 '<pt>      '    4.9214      constant
+     4 'n         '    2.0000      constant
+ **********
+ **    1 **CALL FCN   1.000    
+ **********
+
+ FCN=   17668.13     FROM CALl fcn  STATUS=RESET          1 CALLS        1 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+
+  EXT PARAMETER               CURRENT GUESS      PHYSICAL LIMITS       
+  NO.   NAME        VALUE          ERROR       NEGATIVE      POSITIVE  
+   1    kapa       0.55180       constant   
+   2    lambda     0.29813       constant   
+   3    <pt>        4.9214       constant   
+   4    n           2.0000       constant   
+ **********
+ **    2 **MIGRAD
+ **********
+ **********
+ **    3 **MINOS
+ **********
+
+ FUNCTION MUST BE MINIMIZED BEFORE CALLING MINOs   
+ MINUIT WARNING IN HESSE   
+ ==============     0.10E+01 added to diagonal of error matrix
+ EIGENVALUES OF SECOND-DERIVATIVE MATRIX:
+
+ MINUIT WARNING IN HESSE   
+ ============== MATRIX FORCED POS-DEF BY ADDING  0.10000E-02 TO DIAGONAL.
+ MINUIT WARNING IN HESSE
+ ============== Matrix inversion fails.
+  MNHESS FAILS AND WILL RETURN DIAGONAL MATRIX. 
+ THERE ARE NO MINOS ERRORS TO CALCULATE.
+ **********
+ **    4 **CALL FCN   3.000    
+ **********
+
+ FCN=   17663.17     FROM CALl fcn  STATUS=FAILED         1 CALLS        3 TOTAL
+                     EDM= unknown    STRATEGY=1  ERROR MATRIX UNCERTAINTY=100.0%
+
+  EXT PARAMETER                APPROXIMATE     INTERNAL      INTERNAL  
+  NO.   NAME        VALUE          ERROR       STEP SIZE       VALUE   
+   1    kapa       0.55180       constant   
+   2    lambda     0.29813       constant   
+   3    <pt>        4.9214       constant   
+   4    n           2.0000       constant   
+ **********
+ **    5 **STOP
+ **********

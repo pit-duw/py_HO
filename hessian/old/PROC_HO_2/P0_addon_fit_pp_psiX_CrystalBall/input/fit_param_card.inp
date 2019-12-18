@@ -1,0 +1,8 @@
+0.5490599577229066d0  0.0d0 0d0 10d0 # kappa
+0.304306722938892d0  0.0d0 0d0 10d0 # lam
+4.922032573760566d0  0.0d0 0d0 20d0 # <pt>
+2.0d0  0.0d0 0d0 10d0 # n
+# initial-value step-size lower-bound upper-bound
+# step-size=0d0 means they are fixed and the bounds irrelevant
+# lower and upper bound of MINUIT parameters
+# if both of them are 0d0, there is no limitation

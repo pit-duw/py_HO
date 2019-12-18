@@ -1,0 +1,11 @@
+
+REAL(KIND(1d0)),EXTERNAL::alphasPDF
+IF(uselhapdf)THEN
+ IF(.NOT.lhapdfwrapinit)THEN
+ CALL lhapdfwrap
+ lhapdfwrapinit=.TRUE.
+ ENDIF
+ ALPHAS=alphasPDF(sc)
+ RETURN
+ENDIF
+

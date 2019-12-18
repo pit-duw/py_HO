@@ -1,0 +1,18 @@
+decay_mass_jpsi  3.096916d0  # J/psi mass, it is irrelevant to the mother of the first decay
+decay_mass_chic0 3.41475d0   # chic0(1P) mass
+decay_mass_chic1 3.51066d0   # chic1(1P) mass
+decay_mass_chic2 3.55620d0   # chic2(1P) mass
+decay_mass_hc    3.52538d0   # hc(1P) mass
+decay_mass_etac  2.9836d0    # etac(1S) mass
+decay_mass_psi2S 3.686109d0  # psi(2S) mass
+decay_mass_Y1S   9.46030d0   # Y(1S) mass
+decay_mass_chib11P 9.829278d0 # chib1(1P) mass
+decay_mass_chib01P 9.85944d0  # chib0(1P) mass
+decay_mass_chib21P 9.91221d0  # chib2(1P) mass
+decay_mass_hb1P    9.8993d0   # hb(1P) mass
+decay_mass_chib02P 10.2325d0  # chib0(2P) mass
+decay_mass_chib12P 10.25546d0 # chib1(2P) mass
+decay_mass_chib22P 10.26865d0 # chib2(2P) mass
+decay_mass_Y2S     10.02326d0 # Y(2S) mass
+decay_mass_Y3S     10.3552d0  # Y(3S) mass
+decay_mass_chib3P  10.534d0   # chib0(3P),chib1(3P),chib2(3P) averaged mass 
