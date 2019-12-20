@@ -1,7 +1,78 @@
-Step 0: Download Helaconia and put the folders contents into a folder "helaconia" inside the py_HO folder
-Step 1: copy the file ho_configuration.txt from the main folder into the helaconia/input and change the path to lhapdf-config in the file 
-Step 3: Overwrite the files Colliders_PSI1.f90 and Colliders_PSI2.f90 in the helaconia/src folder with those from the py_HO install folder.
-Step 3.1 (Optional, depends in system): in helaconia/cluster/bin/ho_cluster replace python with python2 in the very first line.
-Step 4: ./config in the helaconia folder
-Step 5: make in the helaconia folder (do not use multiple cores e.g. "make -j4" because make might fail then)
-Step 6: Should now be ready (assuming you have all necessary pdfs installed in your LHAPDF)
+Before installing Helac-Onia you need to install LHAPDF by typing the follwong commands into your terminal (make sure to change the prefix to the path where you want to install LHAPDF):
+
+wget https://lhapdf.hepforge.org/downloads/?f=LHAPDF-6.2.0.tar.gz -O LHAPDF-6.2.0.tar.gz
+tar xf LHAPDF-6.2.0.tar.gz
+cd LHAPDF-6.2.0
+./configure --prefix=/path/for/installation             # example: --prefix=/local0/p_duwe01/LHAPDF
+make
+make install
+
+You will have to add the installation prefix it to your systems PATH, LD_LIBRARY_PATH and PYTHONPATH (see note at bottom if you don't know what this means). You can check whether your installation was successful via 
+
+lhapdf-config
+
+By default LHAPDF does not include any PDF sets. Download the ones you need from https://lhapdf.hepforge.org/pdfsets.html . Go to your downloads folder and unpack them and copy them to the LHAPDF directory via 
+
+tar xf PDF_NAME.tar.gz
+cp -r PDF_NAME /path/for/installation/LHAPDF/share/LHAPDF
+
+You can check whether it was successful by looking at the list of your currently installed PDFs 
+
+lhapdf list --installed
+
+
+
+Now you can install Helac-Onia:
+
+wget http://helac-phegas.web.cern.ch/helac-phegas/tar-files/HELAC-Onia-2.0.1.tar.gz -O HO.tar.gz
+tar xf HO.tar.gz
+
+Step 1: Enter the HO/inputs folder and open the file ho_configuration.txt and remove the "#" at the start of the line 
+# lhapdf = lhapdf-config
+and replace "lhapdf-config" by 
+/path/for/installation/LHAPDF/bin/lhapdf-config
+
+Step 2: Open the files Colliders_PSI1.f90 and Colliders_PSI2.f90 in the src folder and search for any occurence of 
+STOP" 
+then replace by 
+STOP " 
+Otherwise it might not compile (depends on the exact version of your fortran compiler)
+
+Step 3: Open the terminal in the helaconia folder and type 
+./config 
+Step 4: Once the configuration is done type 
+make
+Step 5: Helac-Onia should now be ready. You can check by typing 
+./cluster/bin/ho_cluster
+
+You can then calculate the cross section with the default settings by typing
+generate addon 3
+launch
+
+This should take less than two minutes and create a folder PROC_HO_X (where X starts at 0 and increses whenever you launch a new calculation). This folder contains a subfolder P0_addon_fit_pp_psiX_CrystalBall/outputs with a gnuplot script (fit_results.gnu) you can run to plot the results (creates a fit_results.ps file)
+
+
+
+
+
+Related Papers:
+https://arxiv.org/abs/1610.05382
+https://arxiv.org/abs/1507.03435
+https://arxiv.org/abs/1712.07024
+
+
+
+Setting PATHs:
+The simplest way to do this is opening the bash_rc file in a text editor (nano is the terminal editor existing on every linux device, you can use gedit or something if you want a GUI texteditor. Also note that bash_rc might be called bashrc or bash_profile on your computer):
+
+nano ~/.bash_rc
+
+scroll down to the last line of the file and add 
+
+export PATH=/path/for/installation/LHAPDF/bin:$PATH
+export LD_LIBRARY_PATH=/path/for/installation/LHAPDF/lib:$LD_LIBRARY_PATH
+export PYTHONPATH=/path/for/installation/LHAPDF/lib/python2.7/site-packages:$PYTHONPATH
+
+Then press
+[ctrl]-o [Enter] [ctrl]-x
+to save the file. MAKE SURE TO CLOSE AND REOPEN YOUR TERMINAL AFTER UPDATING BASH_RC OTHERWISE THE CHANGES WILL NOT APPLY.

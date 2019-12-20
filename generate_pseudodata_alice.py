@@ -20,13 +20,13 @@ with open("pseudodata_alice.dat", "w+") as file:
     file.write(desc(5020., [-0.9, 0.9], nbin))
     for pt in np.linspace(ptmin, ptmax, num = nbin):
         file.write(line(pt))
-    file.write(desc(5020., [-1.4, 0.4], nbin))
+    file.write(desc(5020., [-0.905, 0.895], nbin))
     for pt in np.linspace(ptmin, ptmax, num = nbin):
         file.write(line(pt))
-    file.write(desc(8016., [-4.5, -3.0], nbin))
+    file.write(desc(8016., [-3.985, -2.495], nbin))
     for pt in np.linspace(ptmin, ptmax, num = nbin):
         file.write(line(pt))
-    file.write(desc(8016., [2.0, 3.5], nbin))
+    file.write(desc(8016., [1.565, 3.065], nbin))
     for pt in np.linspace(ptmin, ptmax, num = nbin):
         file.write(line(pt))
 
