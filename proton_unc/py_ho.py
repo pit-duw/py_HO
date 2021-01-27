@@ -19,7 +19,7 @@ else:
     print("Keeping old results.")
 
 def set_pdf(number):
-    with open("./helaconia/input/user.inp", "r") as file:
+    with open("../helaconia/input/user.inp", "r") as file:
         settings = file.read()
 
     settings_lines = settings.splitlines()
@@ -28,11 +28,11 @@ def set_pdf(number):
         if line.startswith("pdf "):
             settings_lines[i] = "pdf " + str(number)
 
-    with open("./helaconia/input/user.inp", "w") as file:
+    with open("../helaconia/input/user.inp", "w") as file:
         file.write("\n".join(settings_lines))
 
 def calc_results():
-    p = subprocess.Popen("./helaconia/cluster/bin/ho_cluster", 
+    p = subprocess.Popen("../helaconia/cluster/bin/ho_cluster", 
         stdin=subprocess.PIPE,
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
@@ -51,5 +51,5 @@ for i in range(min_ev_pdf, max_ev_pdf+1):
     calc_results()
     print("Calculation for eigenvector" + str(i) +" done.")
 
-set_pdf(central_value_pdf)
+set_pdf(100000)
 

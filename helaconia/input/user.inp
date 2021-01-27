@@ -102,7 +102,7 @@ nlimit 1             # The lower limit of the number of channels
 gener 3                # Monte Carlo generator: 0 PHEGAS 1 RAMBO 2 DURHAM 3 VEGAS -1 From PS.input
 ranhel 4
 lhapdf T    # use lhapdf (only valid	when lhapdf are	installed)
-pdf 100000
+pdf 90764
 reweight_pdf F         # reweight to get PDF uncertainty, only works when lhapdf = T
 pdf_min 101101          # first of the error pdf sets
 pdf_max 101132          # last of the error pdf sets

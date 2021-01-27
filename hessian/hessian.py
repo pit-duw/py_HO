@@ -27,7 +27,7 @@ def generate_fit_param_card(params, file):
         file.write("# initial-value step-size lower-bound upper-bound\n# step-size=0d0 means they are fixed and the bounds irrelevant\n# lower and upper bound of MINUIT parameters\n# if both of them are 0d0, there is no limitation")
 
 def calc_results():
-    p = subprocess.Popen("../cluster/bin/ho_cluster", 
+    p = subprocess.Popen("../helaconia/cluster/bin/ho_cluster", 
         stdin=subprocess.PIPE,
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
@@ -39,7 +39,7 @@ def calc_results():
 
 def get_chisq(params):
     print("Calculating chisq at parameters: ", params)
-    generate_fit_param_card(params, "../addon/fit_pp_psiX_CrystalBall/input/fit_param_card.inp")
+    generate_fit_param_card(params, "../helaconia/addon/fit_pp_psiX_CrystalBall/input/fit_param_card.inp")
     calc_results()
     folders = os.listdir(".")
     latest = 0
@@ -52,7 +52,7 @@ def get_chisq(params):
         chisq= float(output.splitlines()[-1].split()[-1])
 
     print("chisq: ", chisq)
-    generate_fit_param_card(central, "../addon/fit_pp_psiX_CrystalBall/input/fit_param_card.inp")
+    generate_fit_param_card(central, "../helaconia/addon/fit_pp_psiX_CrystalBall/input/fit_param_card.inp")
     return chisq
 
 def unit_vec(i):
